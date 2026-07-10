@@ -157,16 +157,16 @@ export default function FullscreenMenu({ isOpen, onClose }: FullscreenMenuProps)
               className="relative h-[40vh] border-t border-cream/10 md:h-auto md:border-t-0 md:border-l"
             >
               {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                poster="/book-cover-latest.png"
-                className="absolute inset-0 h-full w-full object-cover"
-              >
-                <source src="/header-nav-video.mp4" type="video/mp4" />
-              </video>
+<video
+  autoPlay
+  muted
+  loop
+  playsInline
+  preload="auto"
+  className="absolute inset-0 h-full w-full object-cover"
+>
+  <source src="/header-nav-video.mp4" type="video/mp4" />
+</video>
               <div className="absolute inset-0 bg-black/20" />
             </motion.div>
           </div>
