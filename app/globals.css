@@ -1,0 +1,232 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@theme inline {
+  --font-sans: 'Inter', 'Inter Fallback';
+  --font-serif: 'Fraunces', 'Fraunces Fallback';
+  --color-gold: #c9a961;
+  --color-gold-light: #d4b896;
+  --color-black: #0a0a0a;
+  --color-charcoal: #1a1a1a;
+  --color-cream: #faf8f6;
+  --color-forest-green: #1a5f47;
+  --color-royal-purple: #6b3fa0;
+  --color-royal-purple-light: #9779bd;
+  --color-forest-green-light: #5f8f7e;
+  --radius: 0.25rem;
+}
+
+:root {
+  color-scheme: dark;
+  --color-gold: #c9a961;
+  --color-gold-light: #d4b896;
+  --color-black: #0a0a0a;
+  --color-charcoal: #1a1a1a;
+  --color-cream: #faf8f6;
+  --color-forest-green: #1a5f47;
+  --color-royal-purple: #6b3fa0;
+  --color-royal-purple-light: #9779bd;
+  --color-forest-green-light: #5f8f7e;
+  --radius: 0.25rem;
+}
+
+@layer base {
+  html {
+    @apply bg-black;
+  }
+  
+  body {
+    @apply bg-black text-cream font-sans antialiased;
+  }
+  
+  * {
+    @apply border-gold/20;
+  }
+}
+
+/* Typography system */
+@layer components {
+  .h1 {
+    @apply font-serif text-6xl md:text-7xl font-normal leading-tight tracking-tight text-cream;
+  }
+  
+  .h2 {
+    @apply font-serif text-5xl md:text-6xl font-normal leading-tight tracking-tight text-cream;
+  }
+  
+  .h3 {
+    @apply font-serif text-4xl md:text-5xl font-normal leading-tight text-cream;
+  }
+  
+  .h4 {
+    @apply font-serif text-3xl md:text-4xl font-normal leading-snug text-cream;
+  }
+  
+  .subtitle {
+    @apply font-serif text-2xl md:text-3xl font-normal text-gold/90 leading-relaxed;
+  }
+  
+  .body {
+    @apply font-sans text-lg leading-relaxed text-cream/90;
+  }
+  
+  .label {
+    @apply font-sans text-xs font-medium tracking-widest uppercase text-gold/80;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    @apply px-6 py-3 font-sans text-sm font-medium tracking-widest uppercase border border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300 ease-out cursor-pointer rounded-none;
+  }
+  
+  .btn-primary:hover {
+    @apply bg-gold text-black;
+  }
+  
+  /* Decorative elements */
+  .gold-line {
+    @apply h-px bg-gradient-to-r from-transparent via-gold to-transparent;
+  }
+  
+  .gold-accent-line {
+    @apply h-0.5 w-16 bg-gold;
+  }
+}
+
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-in;
+  }
+  
+  .delay-1000 {
+    animation-delay: 1000ms;
+  }
+
+  /* Fullscreen menu: cinematic open/close */
+  @keyframes menu-overlay-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes menu-overlay-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes menu-content-in {
+    from {
+      opacity: 0;
+      filter: blur(16px);
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes menu-item-in {
+    from {
+      opacity: 0;
+      filter: blur(6px);
+      transform: translateY(28px);
+    }
+    to {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes menu-fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes menu-scale-in {
+    from {
+      opacity: 0;
+      filter: blur(10px);
+      transform: scale(1.06);
+    }
+    to {
+      opacity: 1;
+      filter: blur(0);
+      transform: scale(1);
+    }
+  }
+
+  .animate-menu-overlay-in {
+    animation: menu-overlay-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .animate-menu-overlay-out {
+    animation: menu-overlay-out 0.35s ease-in forwards;
+  }
+
+  .animate-menu-content-in {
+    animation: menu-content-in 0.75s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .animate-menu-item-in {
+    animation: menu-item-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .animate-menu-fade-in {
+    animation: menu-fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .animate-menu-scale-in {
+    animation: menu-scale-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  /* Marquee: seamless infinite scroll. Direction is reversed via
+     animation-direction (see components/ui/marquee.tsx) so both
+     scroll directions share this single keyframe. */
+  @keyframes marquee-scroll {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee-scroll var(--marquee-duration, 30s) linear infinite;
+    animation-direction: var(--marquee-play-direction, normal);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #fullscreen-menu,
+  #fullscreen-menu * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+  }
+}
