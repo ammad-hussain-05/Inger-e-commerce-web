@@ -15,12 +15,12 @@ function MarqueeGroup({ words, ariaHidden }: { words: string[]; ariaHidden?: boo
         return (
           <span
             key={i}
-            className="px-4 font-sans text-[clamp(3.5rem,13vw,220px)] leading-none font-black tracking-[-0.03em] whitespace-nowrap uppercase sm:px-6 md:px-8"
+            className="px-2.5 font-sans text-[clamp(0.75rem,1.6vw,1.125rem)] leading-none font-black tracking-[0.08em] whitespace-nowrap uppercase sm:px-3 md:px-4"
             style={
               outline
                 ? {
                     color: 'transparent',
-                    WebkitTextStroke: '1.5px var(--color-cream)',
+                    WebkitTextStroke: '1px var(--color-cream)',
                   }
                 : { color: 'var(--color-cream)' }
             }
@@ -37,7 +37,7 @@ function MarqueeGroup({ words, ariaHidden }: { words: string[]; ariaHidden?: boo
 export default function Marquee({ words, direction = 'left', speed = 30 }: MarqueeProps) {
   return (
     <div
-      className="relative flex h-[250px] w-full items-center overflow-hidden border-y border-cream/10 bg-[#1d1d1d] sm:h-[180px] md:h-[180px] lg:h-[195px]"
+      className="relative flex h-12 w-full items-center overflow-hidden border-y border-cream/10 bg-[#1d1d1d] sm:h-14 md:h-16"
       style={
         {
           '--marquee-duration': `${speed}s`,

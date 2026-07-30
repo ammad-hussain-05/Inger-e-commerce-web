@@ -9,7 +9,7 @@ export default function Hero() {
         playsInline
         className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover"
       >
-        <source src="/home-background.mp4" type="video/mp4" />
+        <source src="/home-background-2.mp4" type="video/mp4" />
       </video>
 
       {/* Subtle dark overlay for readability */}

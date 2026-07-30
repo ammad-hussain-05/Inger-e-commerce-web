@@ -1,6 +1,8 @@
 import { Analytics } from '@vercel/analytics/next'
 import { Fraunces, Inter } from 'next/font/google'
 import type { Metadata, Viewport } from 'next'
+import SmoothScrollProvider from '@/components/providers/smooth-scroll-provider'
+import CustomCursor from '@/components/ui/custom-cursor'
 import './globals.css'
 
 const fraunces = Fraunces({
@@ -38,7 +40,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`} style={{ fontFamily: 'var(--font-sans)' }}>
       <body className="antialiased">
-        {children}
+        <SmoothScrollProvider>
+          <CustomCursor />
+          {children}
+        </SmoothScrollProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

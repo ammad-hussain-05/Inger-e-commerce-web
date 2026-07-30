@@ -5,13 +5,15 @@ import { useEffect, useRef, useState } from 'react'
 import { ArrowRight, BookOpen, Cog, ExternalLink, Feather } from 'lucide-react'
 import { FaAmazon } from 'react-icons/fa'
 import { SiAudible } from 'react-icons/si'
+import GenreBadge from '@/components/ui/genre-badge'
+import { books } from '@/lib/books'
 
 const ICON_STROKE_WIDTH = 1.5
 
 const stats = [
-  { label: 'Pages', value: '448', Icon: BookOpen },
+  { label: 'Pages', value: books.acclaimed.pages, Icon: BookOpen },
   { label: 'Series', value: 'Book One', Icon: Cog },
-  { label: 'Genre', value: 'Dark Fantasy', Icon: Feather },
+  { label: 'Genre', value: books.acclaimed.genre, Icon: Feather },
 ]
 
 const retailers = [
@@ -78,6 +80,7 @@ export default function AcclaimedRelease() {
           >
             <div>
               <p className="label mb-3 text-forest-green/70">Critically Acclaimed</p>
+              <GenreBadge genre={books.acclaimed.genre} accent="forest-green" className="mb-4" />
               <h2 className="h2 text-balance mb-6">
                 Two Elves And A Halfling
               </h2>

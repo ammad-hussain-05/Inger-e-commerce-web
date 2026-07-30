@@ -2,10 +2,15 @@
 
 import Image from 'next/image'
 import { useLayoutEffect, useRef } from 'react'
+import GenreBadge from '@/components/ui/genre-badge'
 
 interface CarouselItem {
   image: string
   title: string
+  /** Chronological book number (1, 2, 3…) shown above the title. */
+  number: number
+  genre: string
+  pages: string
   alt?: string
 }
 
@@ -124,7 +129,7 @@ export default function ModernCarousel({ heading, items, speed = 32 }: ModernCar
       </div>
 
       <div
-        className="relative z-10 mx-auto h-[460px] max-w-[420px] overflow-hidden sm:h-[560px] sm:max-w-3xl md:h-[680px] md:max-w-5xl lg:h-[760px] lg:max-w-6xl"
+        className="relative z-10 mx-auto h-[520px] max-w-[420px] overflow-hidden sm:h-[620px] sm:max-w-3xl md:h-[740px] md:max-w-5xl lg:h-[820px] lg:max-w-6xl"
         style={{ perspective: '1800px' }}
       >
         <div className="absolute inset-0" style={{ transformStyle: 'preserve-3d' }}>
@@ -155,7 +160,10 @@ export default function ModernCarousel({ heading, items, speed = 32 }: ModernCar
                 style={{ willChange: 'opacity, transform' }}
               >
                 <div className="mb-2 h-px w-8 bg-gold/60" />
+                <p className="label mb-1.5 text-gold/70">Book {String(item.number).padStart(2, '0')}</p>
                 <p className="font-serif text-lg text-cream sm:text-xl md:text-2xl">{item.title}</p>
+                <GenreBadge genre={item.genre} accent="gold" className="mt-3" />
+                <p className="label mt-2 text-cream/40">{item.pages} pages</p>
               </div>
             </div>
           ))}

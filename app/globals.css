@@ -1,6 +1,14 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
+/* Animated conic-gradient card border (character directory) needs a typed
+   custom property so the browser can interpolate the angle smoothly. */
+@property --card-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
 @theme inline {
   --font-sans: 'Inter', 'Inter Fallback';
   --font-serif: 'Fraunces', 'Fraunces Fallback';
@@ -90,6 +98,56 @@
   
   .gold-accent-line {
     @apply h-0.5 w-16 bg-gold;
+  }
+
+  /* Custom cursor: hidden until JS confirms a fine (non-touch) pointer
+     and no reduced-motion preference — see components/ui/custom-cursor.tsx */
+  .custom-cursor-dot,
+  .custom-cursor-ring {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    pointer-events: none;
+    z-index: 100;
+    border-radius: 9999px;
+    will-change: transform;
+  }
+
+  .custom-cursor-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--color-gold);
+    transition: opacity 0.2s ease;
+  }
+
+  .custom-cursor-ring {
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(201, 169, 97, 0.5);
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, opacity 0.2s ease;
+  }
+
+  .custom-cursor-ring.is-hovering {
+    width: 64px;
+    height: 64px;
+    background: rgba(201, 169, 97, 0.12);
+    border-color: var(--color-gold);
+  }
+
+  .custom-cursor-ring.is-pressing {
+    width: 28px;
+    height: 28px;
+  }
+
+  html.custom-cursor-active .custom-cursor-dot,
+  html.custom-cursor-active .custom-cursor-ring {
+    display: block;
+  }
+
+  html.custom-cursor-active,
+  html.custom-cursor-active * {
+    cursor: none;
   }
 }
 
@@ -220,6 +278,105 @@
     animation: marquee-scroll var(--marquee-duration, 30s) linear infinite;
     animation-direction: var(--marquee-play-direction, normal);
   }
+
+  /* Character directory: cards fade/rise in on mount, staggered via
+     inline transition-delay (see components/characters/character-card.tsx). */
+  @keyframes character-card-in {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .character-card-enter {
+    animation: character-card-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  }
+
+  /* Character directory: cinematic drop shadow so hero copy stays readable
+     over a full-brightness background video with no dark overlay. */
+  .text-shadow-cinematic {
+    text-shadow: 0 4px 28px rgba(0, 0, 0, 0.7), 0 1px 6px rgba(0, 0, 0, 0.55);
+  }
+
+  /* Character directory: animated conic-gradient "wave" ring around each
+     card border. Colors come from --wave-c1/--wave-c2, set inline per card
+     from its theme accent (see components/characters/character-card.tsx). */
+  @keyframes card-wave-rotate {
+    to {
+      --card-angle: 360deg;
+    }
+  }
+
+  .character-card-wave {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .character-card-wave::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    z-index: 1;
+    border-radius: inherit;
+    padding: 2px;
+    background: conic-gradient(
+      from var(--card-angle),
+      transparent 0deg,
+      var(--wave-c1, transparent) 90deg,
+      var(--wave-c2, transparent) 180deg,
+      var(--wave-c1, transparent) 270deg,
+      transparent 360deg
+    );
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0.9;
+    pointer-events: none;
+    animation: card-wave-rotate 7s linear infinite;
+    transition: opacity 0.4s ease, filter 0.4s ease;
+    filter: drop-shadow(0 0 5px var(--wave-c1, transparent));
+  }
+
+  .character-card-wave:hover::before,
+  .character-card-wave:focus-visible::before {
+    opacity: 1;
+    filter: drop-shadow(0 0 9px var(--wave-c1, transparent));
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .character-card-wave::before {
+      animation: none;
+    }
+  }
+
+  /* Character directory: slim gold-accented scrollbar for the filter
+     dropdown panels (see components/characters/filter-dropdown.tsx). */
+  .fantasy-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(201, 169, 97, 0.4) transparent;
+  }
+
+  .fantasy-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .fantasy-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .fantasy-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(201, 169, 97, 0.35);
+    border-radius: 9999px;
+  }
+
+  .fantasy-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(201, 169, 97, 0.55);
+  }
+
 }
 
 @media (prefers-reduced-motion: reduce) {

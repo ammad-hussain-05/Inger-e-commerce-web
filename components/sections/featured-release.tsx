@@ -5,13 +5,15 @@ import { useEffect, useRef, useState } from 'react'
 import { ArrowRight, BookOpen, Cog, ExternalLink, Feather } from 'lucide-react'
 import { FaAmazon } from 'react-icons/fa'
 import { SiAudible } from 'react-icons/si'
+import GenreBadge from '@/components/ui/genre-badge'
+import { books } from '@/lib/books'
 
 const ICON_STROKE_WIDTH = 1.5
 
 const stats = [
-  { label: 'Pages', value: '386', Icon: BookOpen },
+  { label: 'Pages', value: books.featured.pages, Icon: BookOpen },
   { label: 'Series', value: 'Book Two', Icon: Cog },
-  { label: 'Genre', value: 'Urban Fantasy', Icon: Feather },
+  { label: 'Genre', value: books.featured.genre, Icon: Feather },
 ]
 
 const retailers = [
@@ -61,6 +63,7 @@ export default function FeaturedRelease() {
           >
             <div>
               <p className="label mb-3 text-royal-purple/70">Reader Favorite</p>
+              <GenreBadge genre={books.featured.genre} accent="royal-purple" className="mb-4" />
               <h2 className="h2 text-balance mb-6">
                 Rallying Cry
 

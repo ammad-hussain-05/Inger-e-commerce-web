@@ -7,8 +7,10 @@ import FeaturedRelease from '@/components/sections/featured-release'
 import AcclaimedRelease from '@/components/sections/acclaimed-release'
 import Marquee from '@/components/ui/marquee'
 import ModernCarousel from '@/components/ui/modern-carousel'
+import { books } from '@/lib/books'
 import About from '@/components/sections/about'
 import Testimonials from '@/components/sections/testimonials'
+import CharacterQuotes from '@/components/sections/character-quotes'
 import Blog from '@/components/sections/blog'
 import Footer from '@/components/sections/footer'
 import StickyHeader from '@/components/layout/sticky-header'
@@ -30,7 +32,7 @@ export default function Home() {
       <StickyHeader isScrolled={isScrolled} />
       <main className="overflow-hidden">
         <Hero />
-        <LatestRelease />
+        <AcclaimedRelease />
         <Marquee
           words={['Immersive', 'Cinematic', 'Steampunk', 'Fantasy', 'Adventure', 'Epic Storytelling']}
           direction="left"
@@ -42,7 +44,7 @@ export default function Home() {
           direction="right"
           speed={30}
         />
-        <AcclaimedRelease />
+        <LatestRelease />
         <Marquee
           words={['Immersive', 'Cinematic', 'Steampunk', 'Fantasy', 'Adventure', 'Epic Storytelling']}
           direction="left"
@@ -51,13 +53,32 @@ export default function Home() {
         <ModernCarousel
           heading="Tales Our Readers Are Loving Right Now"
           items={[
-            { image: '/acclaimed-released-book.png', title: 'Acclaimed Release' },
-            { image: '/latest-release-book.png', title: 'Latest Release' },
-            { image: '/featured-release-book.png', title: 'Featured Release' },
+            {
+              image: '/acclaimed-released-book.png',
+              title: 'Two Elves and a Halfling',
+              number: 1,
+              genre: books.acclaimed.genre,
+              pages: books.acclaimed.pages,
+            },
+            {
+              image: '/featured-release-book.png',
+              title: 'Rallying Cry',
+              number: 2,
+              genre: books.featured.genre,
+              pages: books.featured.pages,
+            },
+            {
+              image: '/latest-release-book.png',
+              title: 'Calling the Lost Ones Home',
+              number: 3,
+              genre: books.latest.genre,
+              pages: books.latest.pages,
+            },
           ]}
         />
         <About />
         <Testimonials />
+        <CharacterQuotes />
         <Blog />
         <Footer />
       </main>

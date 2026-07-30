@@ -1,0 +1,4291 @@
+[
+  {
+    "id": "emerald-star-tri-lords",
+    "name": "Emerald Star",
+    "group": "Tri-Lords",
+    "role": "Ranger & Scout",
+    "description": "Ranger",
+    "deceased": false
+  },
+  {
+    "id": "thistle-tri-lords",
+    "name": "Thistle",
+    "group": "Tri-Lords",
+    "role": "Mage & Magic",
+    "description": "Wild Mage/Wizard",
+    "deceased": false
+  },
+  {
+    "id": "myst-roottapper-tri-lords",
+    "name": "Myst Roottapper",
+    "group": "Tri-Lords",
+    "role": "Ranger & Scout",
+    "description": "Rogue, Archer",
+    "deceased": false
+  },
+  {
+    "id": "albert-roottapper-roottappers",
+    "name": "Albert Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Cousin",
+    "deceased": false
+  },
+  {
+    "id": "cindy-roottapper-roottappers",
+    "name": "Cindy Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Cousin",
+    "deceased": false
+  },
+  {
+    "id": "daisy-roottapper-roottappers",
+    "name": "Daisy Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Great Aunt",
+    "deceased": false
+  },
+  {
+    "id": "dora-roottapper-roottappers",
+    "name": "Dora Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Aunt",
+    "deceased": false
+  },
+  {
+    "id": "dorsey-roottapper-roottappers",
+    "name": "Dorsey Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Cousin",
+    "deceased": false
+  },
+  {
+    "id": "flora-roottapper-roottappers",
+    "name": "Flora Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Aunt",
+    "deceased": false
+  },
+  {
+    "id": "holly-roottapper-roottappers",
+    "name": "Holly Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Cousin",
+    "deceased": false
+  },
+  {
+    "id": "irmina-roottapper-roottappers",
+    "name": "Irmina Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Cousin, granddaughter to Daisy",
+    "deceased": false
+  },
+  {
+    "id": "oran-roottapper-roottappers",
+    "name": "Oran Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Cousin",
+    "deceased": false
+  },
+  {
+    "id": "storm-roottapper-roottappers",
+    "name": "Storm Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Grandmother of Myst Roottapper",
+    "deceased": false
+  },
+  {
+    "id": "stuart-roottapper-roottappers",
+    "name": "Stuart Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Cousin",
+    "deceased": false
+  },
+  {
+    "id": "sunny-roottapper-roottappers",
+    "name": "Sunny Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Mother of Myst Roottapper",
+    "deceased": false
+  },
+  {
+    "id": "rain-roottapper-roottappers",
+    "name": "Rain Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Great-Great-Grandmother of Myst",
+    "deceased": false
+  },
+  {
+    "id": "wilber-roottapper-roottappers",
+    "name": "Wilber Roottapper",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Cousin",
+    "deceased": false
+  },
+  {
+    "id": "nauma-greycloak-roottappers",
+    "name": "Nauma Greycloak",
+    "group": "Roottappers",
+    "role": "Family & Kin",
+    "description": "Father of Myst Roottapper",
+    "deceased": false
+  },
+  {
+    "id": "aurora-roottapper-roottappers",
+    "name": "Aurora Roottapper",
+    "group": "Roottappers",
+    "role": "Adventurer",
+    "description": "Adventurer",
+    "deceased": true
+  },
+  {
+    "id": "avalanche-roottapper-roottappers",
+    "name": "Avalanche Roottapper",
+    "group": "Roottappers",
+    "role": "Adventurer",
+    "description": "Adventurer",
+    "deceased": true
+  },
+  {
+    "id": "summer-roottapper-roottappers",
+    "name": "Summer Roottapper",
+    "group": "Roottappers",
+    "role": "Adventurer",
+    "description": "Adventurer",
+    "deceased": true
+  },
+  {
+    "id": "thunder-roottapper-roottappers",
+    "name": "Thunder Roottapper",
+    "group": "Roottappers",
+    "role": "Adventurer",
+    "description": "Adventurer",
+    "deceased": true
+  },
+  {
+    "id": "diamond-star-stars",
+    "name": "Diamond Star",
+    "group": "Stars",
+    "role": "Family & Kin",
+    "description": "Brother to Onyx Star, uncle to Emerald Star; current status and location unknown",
+    "deceased": true
+  },
+  {
+    "id": "onyx-star-stars",
+    "name": "Onyx Star",
+    "group": "Stars",
+    "role": "Family & Kin",
+    "description": "Father of Emerald Star",
+    "deceased": true
+  },
+  {
+    "id": "rhiana-star-stars",
+    "name": "Rhiana Star",
+    "group": "Stars",
+    "role": "Family & Kin",
+    "description": "Mother of Emerald Star; maiden name Rowenoak",
+    "deceased": true
+  },
+  {
+    "id": "amber-star-stars",
+    "name": "Amber Star",
+    "group": "Stars",
+    "role": "Priest & Faith",
+    "description": "Druid",
+    "deceased": true
+  },
+  {
+    "id": "ivory-star-stars",
+    "name": "Ivory Star",
+    "group": "Stars",
+    "role": "Military & Guard",
+    "description": "Warrior",
+    "deceased": true
+  },
+  {
+    "id": "jasper-star-stars",
+    "name": "Jasper Star",
+    "group": "Stars",
+    "role": "Ranger & Scout",
+    "description": "Ranger",
+    "deceased": true
+  },
+  {
+    "id": "sable-star-stars",
+    "name": "Sable Star",
+    "group": "Stars",
+    "role": "Priest & Faith",
+    "description": "Paladin",
+    "deceased": true
+  },
+  {
+    "id": "briar-thistle-thistles",
+    "name": "Briar Thistle",
+    "group": "Thistles",
+    "role": "Mage & Magic",
+    "description": "Wild Mage",
+    "deceased": false
+  },
+  {
+    "id": "cyrsia-thistle-thistles",
+    "name": "Cyrsia Thistle",
+    "group": "Thistles",
+    "role": "Mage & Magic",
+    "description": "Mage",
+    "deceased": true
+  },
+  {
+    "id": "tumbleweed-thistle-thistles",
+    "name": "Tumbleweed Thistle",
+    "group": "Thistles",
+    "role": "Mage & Magic",
+    "description": "Wild Mage",
+    "deceased": true
+  },
+  {
+    "id": "arthur-starguard",
+    "name": "Arthur",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Human",
+    "description": "Human Warrior",
+    "deceased": false
+  },
+  {
+    "id": "bolek-ironshod-starguard",
+    "name": "Bolek Ironshod",
+    "group": "Starguard",
+    "role": "Priest & Faith",
+    "race": "Dwarf",
+    "description": "Dwarven cleric of Vidar",
+    "deceased": false
+  },
+  {
+    "id": "bruno-starguard",
+    "name": "Bruno",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "description": "Minotaur warrior",
+    "deceased": false
+  },
+  {
+    "id": "connor-starguard",
+    "name": "Connor",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Human",
+    "description": "Human Warrior",
+    "deceased": false
+  },
+  {
+    "id": "dagmar-stonehelm-starguard",
+    "name": "Dagmar Stonehelm",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Dwarf warrior",
+    "deceased": false
+  },
+  {
+    "id": "dalen-grayhall-starguard",
+    "name": "Dalen Grayhall",
+    "group": "Starguard",
+    "role": "Ranger & Scout",
+    "description": "Archer/axe thrower",
+    "deceased": false
+  },
+  {
+    "id": "darby-starguard",
+    "name": "Darby",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Human",
+    "description": "Human Warrior, Rogue",
+    "deceased": false
+  },
+  {
+    "id": "delson-fedrenael-starguard",
+    "name": "Delson Fedrenael",
+    "group": "Starguard",
+    "role": "Ranger & Scout",
+    "race": "Elf",
+    "description": "Elven Ranger",
+    "deceased": false
+  },
+  {
+    "id": "dorian-salanth-starguard",
+    "name": "Dorian Salanth",
+    "group": "Starguard",
+    "role": "Notable Figure",
+    "race": "Elf",
+    "description": "Male Elven Taktikhyri",
+    "deceased": false
+  },
+  {
+    "id": "farian-starguard",
+    "name": "Farian",
+    "group": "Starguard",
+    "role": "Ranger & Scout",
+    "race": "Elf",
+    "description": "Elven Ranger",
+    "deceased": false
+  },
+  {
+    "id": "farnor-sweetmead-starguard",
+    "name": "Farnor Sweetmead",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Halfling",
+    "description": "Halfling warrior, cousin to Victor",
+    "deceased": false
+  },
+  {
+    "id": "hugo-starguard",
+    "name": "Hugo",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Human",
+    "description": "Human Warrior",
+    "deceased": false
+  },
+  {
+    "id": "kaelle-starguard",
+    "name": "Kaelle",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "description": "Minotaur warrior",
+    "deceased": false
+  },
+  {
+    "id": "kellum-starguard",
+    "name": "Kellum",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "description": "Minotaur warrior",
+    "deceased": false
+  },
+  {
+    "id": "loli-salanth-starguard",
+    "name": "Loli Salanth",
+    "group": "Starguard",
+    "role": "Notable Figure",
+    "race": "Elf",
+    "description": "Female Elven Taktikhyri",
+    "deceased": false
+  },
+  {
+    "id": "marigold-salanth-starguard",
+    "name": "Marigold Salanth",
+    "group": "Starguard",
+    "role": "Notable Figure",
+    "race": "Elf",
+    "description": "Female Elven Taktikhyri",
+    "deceased": false
+  },
+  {
+    "id": "natturion-starguard",
+    "name": "Natturion",
+    "group": "Starguard",
+    "role": "Priest & Faith",
+    "race": "Elf",
+    "description": "Elven priest of Aristalor",
+    "deceased": false
+  },
+  {
+    "id": "rimdar-stormborn-starguard",
+    "name": "Rimdar Stormborn",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Human",
+    "description": "Human warrior",
+    "deceased": false
+  },
+  {
+    "id": "ruala-starguard",
+    "name": "Ruala",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Female Dwarf warrior",
+    "deceased": false
+  },
+  {
+    "id": "ruvon-boltmaker-starguard",
+    "name": "Ruvon Boltmaker",
+    "group": "Starguard",
+    "role": "Craft & Trade",
+    "description": "Bowyer/Fletcher",
+    "deceased": false
+  },
+  {
+    "id": "toski-starguard",
+    "name": "Toski",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Ogre",
+    "description": "Half-Ogre warrior",
+    "deceased": false
+  },
+  {
+    "id": "tula-starguard",
+    "name": "Tula",
+    "group": "Starguard",
+    "role": "Ranger & Scout",
+    "race": "Elf",
+    "description": "Female Elven Ranger",
+    "deceased": false
+  },
+  {
+    "id": "victor-sweetmead-starguard",
+    "name": "Victor Sweetmead",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Halfling",
+    "description": "Halfling warrior, cousin to Farnor",
+    "deceased": false
+  },
+  {
+    "id": "vladin-starguard",
+    "name": "Vladin",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Human",
+    "description": "Human Warrior",
+    "deceased": false
+  },
+  {
+    "id": "war-child-bonaxyn-starguard",
+    "name": "War Child/Bonaxyn",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Dwarf warrior",
+    "deceased": false
+  },
+  {
+    "id": "weelan-shieldbreaker-starguard",
+    "name": "Weelan Shieldbreaker",
+    "group": "Starguard",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Dwarf warrior",
+    "deceased": false
+  },
+  {
+    "id": "windwalker-starguard",
+    "name": "Windwalker",
+    "group": "Starguard",
+    "role": "Ranger & Scout",
+    "description": "Lynxyx Ranger",
+    "deceased": false
+  },
+  {
+    "id": "abell-keeptown",
+    "name": "Abell",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human child of cobblers",
+    "deceased": false
+  },
+  {
+    "id": "adair-keeptown",
+    "name": "Adair",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "description": "Carpenter",
+    "deceased": false
+  },
+  {
+    "id": "aldona-keeptown",
+    "name": "Aldona",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "description": "Wife of Jeramiah, cobbler",
+    "deceased": false
+  },
+  {
+    "id": "allamay-keeptown",
+    "name": "Allamay",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "description": "Dairy manager",
+    "deceased": false
+  },
+  {
+    "id": "andrew-claypenn-keeptown",
+    "name": "Andrew Claypenn",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Halfling",
+    "description": "Male Halfling potter",
+    "deceased": false
+  },
+  {
+    "id": "anthony-keeptown",
+    "name": "Anthony",
+    "group": "Keeptown",
+    "role": "Youth & Apprentice",
+    "description": "Page",
+    "deceased": false
+  },
+  {
+    "id": "bandi-keeptown",
+    "name": "Bandi",
+    "group": "Keeptown",
+    "role": "Youth & Apprentice",
+    "description": "Female child of Densin and Allamay",
+    "deceased": false
+  },
+  {
+    "id": "becka-keeptown",
+    "name": "Becka",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "description": "Wife of Blackie, and leathersmith",
+    "deceased": false
+  },
+  {
+    "id": "ben-keeptown",
+    "name": "Ben",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "description": "Cooper",
+    "deceased": false
+  },
+  {
+    "id": "billen-brassbellows-keeptown",
+    "name": "Billen Brassbellows",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarf prospector",
+    "deceased": false
+  },
+  {
+    "id": "blackie-keeptown",
+    "name": "Blackie",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "description": "Senior blacksmith",
+    "deceased": false
+  },
+  {
+    "id": "borel-ambermace-keeptown",
+    "name": "Borel Ambermace",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarf cook and gemsmith",
+    "deceased": false
+  },
+  {
+    "id": "brenada-carinae-keeptown",
+    "name": "Brenada Carinae",
+    "group": "Keeptown",
+    "role": "Youth & Apprentice",
+    "race": "Elf",
+    "description": "Elf child",
+    "deceased": false
+  },
+  {
+    "id": "delaney-keeptown",
+    "name": "Delaney",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human child of cobblers",
+    "deceased": false
+  },
+  {
+    "id": "dolan-deepdelver-keeptown",
+    "name": "Dolan Deepdelver",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarf weaponsmith and explorer",
+    "deceased": false
+  },
+  {
+    "id": "doraela-alderune-keeptown",
+    "name": "Doraela Alderune",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Elf",
+    "description": "Female alchemist, Elven wife of Malco",
+    "deceased": false
+  },
+  {
+    "id": "duraena-alderune-keeptown",
+    "name": "Duraena Alderune",
+    "group": "Keeptown",
+    "role": "Youth & Apprentice",
+    "race": "Elf",
+    "description": "Female Elven child",
+    "deceased": false
+  },
+  {
+    "id": "durna-keeptown",
+    "name": "Durna",
+    "group": "Keeptown",
+    "role": "Youth & Apprentice",
+    "race": "Human",
+    "description": "Human page",
+    "deceased": false
+  },
+  {
+    "id": "elisia-keeptown",
+    "name": "Elisia",
+    "group": "Keeptown",
+    "role": "Family & Kin",
+    "description": "Wife of Tarrel",
+    "deceased": false
+  },
+  {
+    "id": "elijah-leesle-keeptown",
+    "name": "Elijah Leesle",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "description": "Weaver",
+    "deceased": false
+  },
+  {
+    "id": "fulden-keeptown",
+    "name": "Fulden",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "description": "Goblin apprentice weaver",
+    "deceased": false
+  },
+  {
+    "id": "feyrdren-alderune-keeptown",
+    "name": "Feyrdren Alderune",
+    "group": "Keeptown",
+    "role": "Youth & Apprentice",
+    "race": "Elf",
+    "description": "Male Elven child",
+    "deceased": false
+  },
+  {
+    "id": "francie-keeptown",
+    "name": "Francie",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human child of cobblers",
+    "deceased": false
+  },
+  {
+    "id": "goral-clawbreaker-keeptown",
+    "name": "Goral Clawbreaker",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarf prospector",
+    "deceased": false
+  },
+  {
+    "id": "hobie-silvermine-keeptown",
+    "name": "Hobie Silvermine",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarf blacksmith",
+    "deceased": false
+  },
+  {
+    "id": "hollys-keeptown",
+    "name": "Hollys",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human apprentice blacksmith",
+    "deceased": false
+  },
+  {
+    "id": "jack-keeptown",
+    "name": "Jack",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human, rider",
+    "deceased": false
+  },
+  {
+    "id": "james-keeptown",
+    "name": "James",
+    "group": "Keeptown",
+    "role": "Family & Kin",
+    "description": "Son of William",
+    "deceased": false
+  },
+  {
+    "id": "jeramiah-keeptown",
+    "name": "Jeramiah",
+    "group": "Keeptown",
+    "role": "Priest & Faith",
+    "description": "Cobbler, family patriarch",
+    "deceased": false
+  },
+  {
+    "id": "jorren-keeptown",
+    "name": "Jorren",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human farrier and animal handler",
+    "deceased": false
+  },
+  {
+    "id": "kaleysa-rosewood-keeptown",
+    "name": "Kaleysa Rosewood",
+    "group": "Keeptown",
+    "role": "Military & Guard",
+    "race": "Elf",
+    "description": "Female Elven warrior",
+    "deceased": false
+  },
+  {
+    "id": "laeda-carinae-keeptown",
+    "name": "Laeda Carinae",
+    "group": "Keeptown",
+    "role": "Family & Kin",
+    "description": "Grandmother of Brenada",
+    "deceased": false
+  },
+  {
+    "id": "lanzen-keeptown",
+    "name": "Lanzen",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human apprentice blacksmith",
+    "deceased": false
+  },
+  {
+    "id": "lyndal-silvermine-keeptown",
+    "name": "Lyndal Silvermine",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarf armorer",
+    "deceased": false
+  },
+  {
+    "id": "malco-alderune-keeptown",
+    "name": "Malco Alderune",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Elf",
+    "description": "Male Elven farmer, forager",
+    "deceased": false
+  },
+  {
+    "id": "malden-keeptown",
+    "name": "Malden",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human master carpenter and builder",
+    "deceased": false
+  },
+  {
+    "id": "mindara-keeptown",
+    "name": "Mindara",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Elf",
+    "description": "Half-Elven apprentice blacksmith",
+    "deceased": false
+  },
+  {
+    "id": "mingo-keeptown",
+    "name": "Mingo",
+    "group": "Keeptown",
+    "role": "Youth & Apprentice",
+    "race": "Gnome",
+    "description": "Gnome, apprentice to Thistle",
+    "deceased": false
+  },
+  {
+    "id": "nala-keeptown",
+    "name": "Nala",
+    "group": "Keeptown",
+    "role": "Family & Kin",
+    "description": "Wife of Jack, seamstress",
+    "deceased": false
+  },
+  {
+    "id": "nila-keeptown",
+    "name": "Nila",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Female Dwarf baker",
+    "deceased": false
+  },
+  {
+    "id": "odon-silvermine-keeptown",
+    "name": "Odon Silvermine",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarf blacksmith",
+    "deceased": false
+  },
+  {
+    "id": "patsy-keeptown",
+    "name": "Patsy",
+    "group": "Keeptown",
+    "role": "Youth & Apprentice",
+    "description": "Female child of Densin and Allamay",
+    "deceased": false
+  },
+  {
+    "id": "penny-keeptown",
+    "name": "Penny",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Female Human candymaker",
+    "deceased": false
+  },
+  {
+    "id": "perah-carinae-keeptown",
+    "name": "Perah Carinae",
+    "group": "Keeptown",
+    "role": "Family & Kin",
+    "description": "Mother of Brenada",
+    "deceased": false
+  },
+  {
+    "id": "persephone-leesle-keeptown",
+    "name": "Persephone Leesle",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Female Human weaver",
+    "deceased": false
+  },
+  {
+    "id": "ragnar-ironforge-keeptown",
+    "name": "Ragnar Ironforge",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarf prospector",
+    "deceased": false
+  },
+  {
+    "id": "robbie-keeptown",
+    "name": "Robbie",
+    "group": "Keeptown",
+    "role": "Youth & Apprentice",
+    "description": "Male child of Densin and Allamay",
+    "deceased": false
+  },
+  {
+    "id": "samuel-keeptown",
+    "name": "Samuel",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human farmer",
+    "deceased": false
+  },
+  {
+    "id": "sarah-keeptown",
+    "name": "Sarah",
+    "group": "Keeptown",
+    "role": "Family & Kin",
+    "description": "Daughter of William",
+    "deceased": false
+  },
+  {
+    "id": "sayra-keeptown",
+    "name": "Sayra",
+    "group": "Keeptown",
+    "role": "Family & Kin",
+    "description": "Female, wife of Samuel",
+    "deceased": false
+  },
+  {
+    "id": "talla-keeptown",
+    "name": "Talla",
+    "group": "Keeptown",
+    "role": "Family & Kin",
+    "description": "Wife of William",
+    "deceased": false
+  },
+  {
+    "id": "tarrel-keeptown",
+    "name": "Tarrel",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Human",
+    "description": "Human cartwright",
+    "deceased": false
+  },
+  {
+    "id": "toras-grayforge-keeptown",
+    "name": "Toras Grayforge",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarf leathersmith",
+    "deceased": false
+  },
+  {
+    "id": "waleena-alderune-keeptown",
+    "name": "Waleena Alderune",
+    "group": "Keeptown",
+    "role": "Craft & Trade",
+    "race": "Elf",
+    "description": "Female Elven herbalist",
+    "deceased": false
+  },
+  {
+    "id": "william-jr-keeptown",
+    "name": "William Jr",
+    "group": "Keeptown",
+    "role": "Family & Kin",
+    "description": "Son of William",
+    "deceased": false
+  },
+  {
+    "id": "william-keeptown",
+    "name": "William",
+    "group": "Keeptown",
+    "role": "Notable Figure",
+    "description": "Mayor",
+    "deceased": false
+  },
+  {
+    "id": "allard-glenhollow-duchy-temples",
+    "name": "Allard Glenhollow",
+    "group": "Duchy Temples",
+    "role": "Priest & Faith",
+    "description": "Priest of Aristalor",
+    "deceased": false
+  },
+  {
+    "id": "aurantia-duchy-temples",
+    "name": "Aurantia",
+    "group": "Duchy Temples",
+    "role": "Priest & Faith",
+    "description": "Senior priestess of Athena",
+    "deceased": false
+  },
+  {
+    "id": "dorvil-duchy-temples",
+    "name": "Dorvil",
+    "group": "Duchy Temples",
+    "role": "Priest & Faith",
+    "race": "Dwarf",
+    "description": "Senior priest of the Dwarven God Hamaryx Forgefire",
+    "deceased": false
+  },
+  {
+    "id": "grelda-duchy-temples",
+    "name": "Grelda",
+    "group": "Duchy Temples",
+    "role": "Ranger & Scout",
+    "description": "Ranger of Frey",
+    "deceased": false
+  },
+  {
+    "id": "kari-star-ashmoor-duchy-temples",
+    "name": "Kari Star (Ashmoor)",
+    "group": "Duchy Temples",
+    "role": "Priest & Faith",
+    "description": "Priestess of Baldur, wife of Emerald Star",
+    "deceased": false
+  },
+  {
+    "id": "katriana-duchy-temples",
+    "name": "Katriana",
+    "group": "Duchy Temples",
+    "role": "Priest & Faith",
+    "description": "Senior Priestess of Bast",
+    "deceased": false
+  },
+  {
+    "id": "marra-le-merr-duchy-temples",
+    "name": "Marra Le Merr",
+    "group": "Duchy Temples",
+    "role": "Priest & Faith",
+    "description": "High Priestess of Poseidon in Dragonport",
+    "deceased": false
+  },
+  {
+    "id": "nakea-duchy-temples",
+    "name": "Nakea",
+    "group": "Duchy Temples",
+    "role": "Ranger & Scout",
+    "description": "Senior Ranger of Frey",
+    "deceased": false
+  },
+  {
+    "id": "roga-darktanner-duchy-temples",
+    "name": "Roga Darktanner",
+    "group": "Duchy Temples",
+    "role": "Priest & Faith",
+    "description": "Priestess and Leathersmith, Hamaryx Forgefire",
+    "deceased": false
+  },
+  {
+    "id": "tamlin-duchy-temples",
+    "name": "Tamlin",
+    "group": "Duchy Temples",
+    "role": "Ranger & Scout",
+    "description": "Ranger of Frey",
+    "deceased": false
+  },
+  {
+    "id": "tarall-duchy-temples",
+    "name": "Tarall",
+    "group": "Duchy Temples",
+    "role": "Priest & Faith",
+    "description": "Senior Priest and blacksmith of Hamaryx Forgefire",
+    "deceased": false
+  },
+  {
+    "id": "wind-ashmoor-duchy-temples",
+    "name": "Wind Ashmoor",
+    "group": "Duchy Temples",
+    "role": "Ranger & Scout",
+    "description": "Brother of Mordekai, Ranger of Aristalor",
+    "deceased": false
+  },
+  {
+    "id": "john-freeson-duchy-guards",
+    "name": "John Freeson",
+    "group": "Duchy Guards",
+    "role": "Royalty & Nobility",
+    "description": "Captain of Tri-Lord guards",
+    "deceased": false
+  },
+  {
+    "id": "cole-duchy-guards",
+    "name": "Cole",
+    "group": "Duchy Guards",
+    "role": "Military & Guard",
+    "description": "Duchy guard",
+    "deceased": false
+  },
+  {
+    "id": "ralen-duchy-guards",
+    "name": "Ralen",
+    "group": "Duchy Guards",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Male Dwarf warrior",
+    "deceased": false
+  },
+  {
+    "id": "rickerd-duchy-guards",
+    "name": "Rickerd",
+    "group": "Duchy Guards",
+    "role": "Military & Guard",
+    "description": "Sergeant of Corzo’s guard, assigned to Tri-Lords",
+    "deceased": false
+  },
+  {
+    "id": "sorella-duchy-guards",
+    "name": "Sorella",
+    "group": "Duchy Guards",
+    "role": "Notable Figure",
+    "race": "Human",
+    "description": "Human Female",
+    "deceased": false
+  },
+  {
+    "id": "torbin-duchy-guards",
+    "name": "Torbin",
+    "group": "Duchy Guards",
+    "role": "Notable Figure",
+    "race": "Human",
+    "description": "Human Male",
+    "deceased": false
+  },
+  {
+    "id": "wallace-duchy-guards",
+    "name": "Wallace",
+    "group": "Duchy Guards",
+    "role": "Notable Figure",
+    "race": "Human",
+    "description": "Human Male",
+    "deceased": false
+  },
+  {
+    "id": "marco-the-blue-caravan",
+    "name": "Marco the Blue",
+    "group": "Caravan",
+    "role": "Leadership & Council",
+    "description": "Also called Marcovius, Caravan leader",
+    "deceased": false
+  },
+  {
+    "id": "autumn-caravan",
+    "name": "Autumn",
+    "group": "Caravan",
+    "role": "Family & Kin",
+    "description": "Daughter of Marco",
+    "deceased": false
+  },
+  {
+    "id": "benny-caravan",
+    "name": "Benny",
+    "group": "Caravan",
+    "role": "Military & Guard",
+    "description": "Caravan guard",
+    "deceased": false
+  },
+  {
+    "id": "billy-caravan",
+    "name": "Billy",
+    "group": "Caravan",
+    "role": "Military & Guard",
+    "description": "Caravan guard",
+    "deceased": true
+  },
+  {
+    "id": "deeliah-caravan",
+    "name": "Deeliah",
+    "group": "Caravan",
+    "role": "Military & Guard",
+    "description": "Caravan guard",
+    "deceased": false
+  },
+  {
+    "id": "harry-caravan",
+    "name": "Harry",
+    "group": "Caravan",
+    "role": "Military & Guard",
+    "description": "Caravan guard",
+    "deceased": false
+  },
+  {
+    "id": "josie-caravan",
+    "name": "Josie",
+    "group": "Caravan",
+    "role": "Craft & Trade",
+    "description": "Caravan driver",
+    "deceased": false
+  },
+  {
+    "id": "lisa-caravan",
+    "name": "Lisa",
+    "group": "Caravan",
+    "role": "Craft & Trade",
+    "description": "Herbalist",
+    "deceased": false
+  },
+  {
+    "id": "malcom-caravan",
+    "name": "Malcom",
+    "group": "Caravan",
+    "role": "Craft & Trade",
+    "description": "Tinker",
+    "deceased": false
+  },
+  {
+    "id": "peggy-caravan",
+    "name": "Peggy",
+    "group": "Caravan",
+    "role": "Military & Guard",
+    "description": "Caravan guard",
+    "deceased": false
+  },
+  {
+    "id": "ty-caravan",
+    "name": "Ty",
+    "group": "Caravan",
+    "role": "Military & Guard",
+    "description": "Caravan guard",
+    "deceased": true
+  },
+  {
+    "id": "yonder-caravan",
+    "name": "Yonder",
+    "group": "Caravan",
+    "role": "Military & Guard",
+    "description": "Caravan guard",
+    "deceased": false
+  },
+  {
+    "id": "amalie-dragonport",
+    "name": "Amalie",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Human female, tavern owner",
+    "deceased": false
+  },
+  {
+    "id": "augustus-odd-dragonport",
+    "name": "Augustus Odd",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Captain of The Oddity",
+    "deceased": false
+  },
+  {
+    "id": "bronwen-dragonport",
+    "name": "Bronwen",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Captain of Poseidon's Wrath, Temple of Poseidon",
+    "deceased": false
+  },
+  {
+    "id": "dusty-dragonport",
+    "name": "Dusty",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Mage for The Oddity",
+    "deceased": false
+  },
+  {
+    "id": "eddie-leeson-dragonport",
+    "name": "Eddie Leeson",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Boatswain for The Oddity",
+    "deceased": false
+  },
+  {
+    "id": "finnegus-dragonport",
+    "name": "Finnegus",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Senior fisherman",
+    "deceased": false
+  },
+  {
+    "id": "gallen-dragonport",
+    "name": "Gallen",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Bosun for The Oddity",
+    "deceased": false
+  },
+  {
+    "id": "james-osirian-dragonport",
+    "name": "James Osirian",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Captain of the Morning Dawn",
+    "deceased": false
+  },
+  {
+    "id": "jorian-dragonport",
+    "name": "Jorian",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Sailing Master of Poseidon's Wrath",
+    "deceased": false
+  },
+  {
+    "id": "kellon-dragonport",
+    "name": "Kellon",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "First mate of Poseidon’s Wrath",
+    "deceased": false
+  },
+  {
+    "id": "marleny-dragonport",
+    "name": "Marleny",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Human female, tavern owner",
+    "deceased": false
+  },
+  {
+    "id": "rhona-dragonport",
+    "name": "Rhona",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Human female, tavern owner",
+    "deceased": false
+  },
+  {
+    "id": "silas-dragonport",
+    "name": "Silas",
+    "group": "Dragonport",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "First Mate, The Oddity",
+    "deceased": false
+  },
+  {
+    "id": "ash-the-animals",
+    "name": "Ash",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Male Coal Shepherd, Guard dog (dark and light grey)",
+    "deceased": false
+  },
+  {
+    "id": "cinder-the-animals",
+    "name": "Cinder",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female Coal Shepherd, Guard dog (dark and light grey)",
+    "deceased": false
+  },
+  {
+    "id": "cuddles-the-animals",
+    "name": "Cuddles",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Male Granit Massif puppy owned by Brenada Carinae",
+    "deceased": false
+  },
+  {
+    "id": "fang-the-animals",
+    "name": "Fang",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Male Ebony Mastiff, War dog, father of Shane",
+    "deceased": false
+  },
+  {
+    "id": "hellie-the-animals",
+    "name": "Hellie",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female Hell Hound puppy",
+    "deceased": false
+  },
+  {
+    "id": "shane-the-animals",
+    "name": "Shane",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Male Flame Setter, Hunting and Fishing dog",
+    "deceased": false
+  },
+  {
+    "id": "shelly-the-animals",
+    "name": "Shelly",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female Flame Setter, mother of Shane, Hunting (avians)",
+    "deceased": false
+  },
+  {
+    "id": "spunky-the-animals",
+    "name": "Spunky",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female Granit Massif puppy",
+    "deceased": false
+  },
+  {
+    "id": "golddust-the-animals",
+    "name": "Golddust",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female Cyprmex",
+    "deceased": false
+  },
+  {
+    "id": "lulu-the-animals",
+    "name": "Lulu",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female Ferret",
+    "deceased": false
+  },
+  {
+    "id": "rico-the-animals",
+    "name": "Rico",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Male Ferret",
+    "deceased": false
+  },
+  {
+    "id": "beech-the-animals",
+    "name": "Beech",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Male (gelding) horse, owned by Allard Glenhollow,",
+    "deceased": false
+  },
+  {
+    "id": "clipper-the-animals",
+    "name": "Clipper",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Male (gelding) horse, owned by John Freeson",
+    "deceased": false
+  },
+  {
+    "id": "destarte-the-animals",
+    "name": "Destarte",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female (mare) horse, owned by Mordekai Ashmoor",
+    "deceased": false
+  },
+  {
+    "id": "drago-the-animals",
+    "name": "Drago",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Male (gelding) horse, owned by Emerald Star, black",
+    "deceased": false
+  },
+  {
+    "id": "nellie-the-animals",
+    "name": "Nellie",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female (mare) pack horse, owned by Myst Roottapper",
+    "deceased": false
+  },
+  {
+    "id": "pewter-the-animals",
+    "name": "Pewter",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female (mare) pony, owned by Ragnar Ironforge",
+    "deceased": false
+  },
+  {
+    "id": "poppy-the-animals",
+    "name": "Poppy",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female (mare) pony, owned by Myst Roottapper",
+    "deceased": false
+  },
+  {
+    "id": "squeak-the-animals",
+    "name": "Squeak",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female (mare) horse, owned by Thistle",
+    "deceased": false
+  },
+  {
+    "id": "barney-the-animals",
+    "name": "Barney",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Screech owl partner of Aurantia of Athena’s temple",
+    "deceased": false
+  },
+  {
+    "id": "queen-cleverness-the-animals",
+    "name": "Queen Cleverness",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Aspen’s Familiar",
+    "deceased": false
+  },
+  {
+    "id": "reggie-the-animals",
+    "name": "Reggie",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Tula’s silver fox",
+    "deceased": false
+  },
+  {
+    "id": "westwind-the-animals",
+    "name": "Westwind",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Female Peregrine Falcon",
+    "deceased": false
+  },
+  {
+    "id": "piggy-sue-the-animals",
+    "name": "Piggy Sue",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Sow with eleven piglets rescued from the mountains",
+    "deceased": false
+  },
+  {
+    "id": "mimendeep-goats-the-animals",
+    "name": "Mimendeep goats",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "From Dormenthal",
+    "deceased": false
+  },
+  {
+    "id": "stonewarren-sheep-the-animals",
+    "name": "Stonewarren sheep",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "From Hammer Holme",
+    "deceased": false
+  },
+  {
+    "id": "darkshadow-the-animals",
+    "name": "Darkshadow",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Magical statue that turns into a Sidhden black cat.",
+    "deceased": false
+  },
+  {
+    "id": "derry-the-animals",
+    "name": "Derry",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Magical statue that turns into a camel",
+    "deceased": false
+  },
+  {
+    "id": "frenzy-the-animals",
+    "name": "Frenzy",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Magical statue that turns into an Urvalla",
+    "deceased": false
+  },
+  {
+    "id": "varouel-the-animals",
+    "name": "Varouel",
+    "group": "The Animals",
+    "role": "Beast & Creature",
+    "description": "Magical statue that turns into a snowy owl",
+    "deceased": false
+  },
+  {
+    "id": "agatha-the-fey",
+    "name": "Agatha",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Brownie, flute player",
+    "deceased": false
+  },
+  {
+    "id": "blossom-the-fey",
+    "name": "Blossom",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Pixie",
+    "deceased": false
+  },
+  {
+    "id": "brooks-the-fey",
+    "name": "Brooks",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Pixie",
+    "deceased": false
+  },
+  {
+    "id": "buttercup-the-fey",
+    "name": "Buttercup",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Pixie",
+    "deceased": false
+  },
+  {
+    "id": "chicory-the-fey",
+    "name": "Chicory",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Pixie",
+    "deceased": false
+  },
+  {
+    "id": "clover-the-fey",
+    "name": "Clover",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Pixie",
+    "deceased": false
+  },
+  {
+    "id": "crystal-the-fey",
+    "name": "Crystal",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Pixie",
+    "deceased": false
+  },
+  {
+    "id": "dandelion-the-fey",
+    "name": "Dandelion",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Pixie",
+    "deceased": false
+  },
+  {
+    "id": "hazelnut-the-fey",
+    "name": "Hazelnut",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Pixie",
+    "deceased": false
+  },
+  {
+    "id": "honzo-the-fey",
+    "name": "Honzo",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Brownie, the drummer",
+    "deceased": false
+  },
+  {
+    "id": "lady-isabel-the-fey",
+    "name": "Lady Isabel",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Featherdown Pixie",
+    "deceased": false
+  },
+  {
+    "id": "misty-the-fey",
+    "name": "Misty",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Pixie, Deepberry clan",
+    "deceased": false
+  },
+  {
+    "id": "rainbow-the-fey",
+    "name": "Rainbow",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Pixie",
+    "deceased": false
+  },
+  {
+    "id": "sage-the-fey",
+    "name": "Sage",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Pixie from the Sacred Grove in the duchy",
+    "deceased": false
+  },
+  {
+    "id": "spike-the-fey",
+    "name": "Spike",
+    "group": "The Fey",
+    "role": "Family & Kin",
+    "race": "Fey",
+    "description": "Male Pixie, cousin of Trixie",
+    "deceased": false
+  },
+  {
+    "id": "tabitha-the-fey",
+    "name": "Tabitha",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Healer, Pixie",
+    "deceased": false
+  },
+  {
+    "id": "trixie-the-fey",
+    "name": "Trixie",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Pixie",
+    "deceased": false
+  },
+  {
+    "id": "algis-the-fey",
+    "name": "Algis",
+    "group": "The Fey",
+    "role": "Leadership & Council",
+    "race": "Fey",
+    "description": "Male Centaur, War Leader (palomino/golden body)",
+    "deceased": false
+  },
+  {
+    "id": "caelan-the-fey",
+    "name": "Caelan",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Centaur (grey body)",
+    "deceased": false
+  },
+  {
+    "id": "delvon-the-fey",
+    "name": "Delvon",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Centaur (bay body)",
+    "deceased": false
+  },
+  {
+    "id": "ellard-the-fey",
+    "name": "Ellard",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Centaur (chestnut body)",
+    "deceased": false
+  },
+  {
+    "id": "inyis-the-fey",
+    "name": "Inyis",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Centaur (pale gray body)",
+    "deceased": true
+  },
+  {
+    "id": "jaegar-the-fey",
+    "name": "Jaegar",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Centaur (blood bay body)",
+    "deceased": false
+  },
+  {
+    "id": "kalis-the-fey",
+    "name": "Kalis",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Centaur (dark brown body)",
+    "deceased": false
+  },
+  {
+    "id": "herd-mother-the-fey",
+    "name": "Herd Mother",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Female Centaur",
+    "deceased": false
+  },
+  {
+    "id": "poulos-the-fey",
+    "name": "Poulos",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Centaur (black body)",
+    "deceased": false
+  },
+  {
+    "id": "timms-the-fey",
+    "name": "Timms",
+    "group": "The Fey",
+    "role": "Notable Figure",
+    "race": "Fey",
+    "description": "Male Centaur (chestnut body)",
+    "deceased": false
+  },
+  {
+    "id": "corzo-darinae-mardalla-darinae",
+    "name": "Corzo Darinae",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "King",
+    "deceased": false
+  },
+  {
+    "id": "sylva-mardalla-darinae",
+    "name": "Sylva",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "Queen, wife of Corzo",
+    "deceased": false
+  },
+  {
+    "id": "gamlyn-mardalla-darinae",
+    "name": "Gamlyn",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "Prince, first-born of King Corzo and Queen Sylva",
+    "deceased": false
+  },
+  {
+    "id": "lazl-mardalla-darinae",
+    "name": "Lazl",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "King's Advisor",
+    "deceased": false
+  },
+  {
+    "id": "baltin-mardalla-darinae",
+    "name": "Baltin",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "General, King's Army",
+    "deceased": false
+  },
+  {
+    "id": "belson-mardalla-darinae",
+    "name": "Belson",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "Lieutenant of the King’s army",
+    "deceased": false
+  },
+  {
+    "id": "big-tom-mardalla-darinae",
+    "name": "Big Tom",
+    "group": "Mardalla, Darinae",
+    "role": "Craft & Trade",
+    "description": "Innkeeper of the Sleepy Mutt Inn, Father to Tommy",
+    "deceased": false
+  },
+  {
+    "id": "cynthia-mardalla-darinae",
+    "name": "Cynthia",
+    "group": "Mardalla, Darinae",
+    "role": "Leadership & Council",
+    "description": "Gemsmith & Judge at Thorn's Crossing",
+    "deceased": false
+  },
+  {
+    "id": "cyrus-mardalla-darinae",
+    "name": "Cyrus",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "Major, King's Marines",
+    "deceased": false
+  },
+  {
+    "id": "elandor-mardalla-darinae",
+    "name": "Elandor",
+    "group": "Mardalla, Darinae",
+    "role": "Leadership & Council",
+    "description": "Judge at Thorn's Crossing",
+    "deceased": false
+  },
+  {
+    "id": "franna-mardalla-darinae",
+    "name": "Franna",
+    "group": "Mardalla, Darinae",
+    "role": "Notable Figure",
+    "description": "Head chef",
+    "deceased": false
+  },
+  {
+    "id": "grilain-mardalla-darinae",
+    "name": "Grilain",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "Major, King's Army",
+    "deceased": false
+  },
+  {
+    "id": "gurlina-cedarbanks-mardalla-darinae",
+    "name": "Gurlina Cedarbanks",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "King’s Guard, sister of Gurvir",
+    "deceased": false
+  },
+  {
+    "id": "gurvir-cedarbanks-mardalla-darinae",
+    "name": "Gurvir Cedarbanks",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "King’s Guard, brother of Gurlina",
+    "deceased": false
+  },
+  {
+    "id": "jameson-mardalla-darinae",
+    "name": "Jameson",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "Corporal of the King’s army",
+    "deceased": false
+  },
+  {
+    "id": "liliana-mardalla-darinae",
+    "name": "Liliana",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "King’s Ranger",
+    "deceased": false
+  },
+  {
+    "id": "malkin-mardalla-darinae",
+    "name": "Malkin",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "Major, King's Army",
+    "deceased": false
+  },
+  {
+    "id": "rayn-ivyleaf-mardalla-darinae",
+    "name": "Rayn Ivyleaf",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "King’s Ranger",
+    "deceased": false
+  },
+  {
+    "id": "samuel-mardalla-darinae",
+    "name": "Samuel",
+    "group": "Mardalla, Darinae",
+    "role": "Youth & Apprentice",
+    "description": "Page",
+    "deceased": false
+  },
+  {
+    "id": "sprockets-mardalla-darinae",
+    "name": "Sprockets",
+    "group": "Mardalla, Darinae",
+    "role": "Craft & Trade",
+    "race": "Gnome",
+    "description": "Gnome Tinker",
+    "deceased": false
+  },
+  {
+    "id": "tashara-mardalla-darinae",
+    "name": "Tashara",
+    "group": "Mardalla, Darinae",
+    "role": "Youth & Apprentice",
+    "description": "Page",
+    "deceased": false
+  },
+  {
+    "id": "tommy-mardalla-darinae",
+    "name": "Tommy",
+    "group": "Mardalla, Darinae",
+    "role": "Notable Figure",
+    "description": "Stableboy at the Sleepy Mutt Inn, Rushlin",
+    "deceased": false
+  },
+  {
+    "id": "williams-mardalla-darinae",
+    "name": "Williams",
+    "group": "Mardalla, Darinae",
+    "role": "Royalty & Nobility",
+    "description": "Private in the King’s army",
+    "deceased": false
+  },
+  {
+    "id": "anders-the-temples-in-mardalla-city",
+    "name": "Anders",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Senior Priest of Baldur",
+    "deceased": false
+  },
+  {
+    "id": "aurantia-the-temples-in-mardalla-city",
+    "name": "Aurantia",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Senior priestess of Athena",
+    "deceased": false
+  },
+  {
+    "id": "bolen-the-temples-in-mardalla-city",
+    "name": "Bolen",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Priest of Frey",
+    "deceased": false
+  },
+  {
+    "id": "dorvil-axefire-the-temples-in-mardalla-city",
+    "name": "Dorvil Axefire",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Senior priest of Hamaryx Forgefire",
+    "deceased": false
+  },
+  {
+    "id": "jorlin-the-temples-in-mardalla-city",
+    "name": "Jorlin",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Senior priest of Hephaestus",
+    "deceased": false
+  },
+  {
+    "id": "magnus-the-temples-in-mardalla-city",
+    "name": "Magnus",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Priest of Thor",
+    "deceased": false
+  },
+  {
+    "id": "stiina-the-temples-in-mardalla-city",
+    "name": "Stiina",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Priestess of Sif",
+    "deceased": false
+  },
+  {
+    "id": "talna-the-temples-in-mardalla-city",
+    "name": "Talna",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "New Priestess of Baldur",
+    "deceased": false
+  },
+  {
+    "id": "merek-the-temples-in-mardalla-city",
+    "name": "Merek",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "High Priest of Poseidon",
+    "deceased": false
+  },
+  {
+    "id": "nemorio-the-temples-in-mardalla-city",
+    "name": "Nemorio",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "High Priest of Frey",
+    "deceased": false
+  },
+  {
+    "id": "guntar-the-temples-in-mardalla-city",
+    "name": "Guntar",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "High Priest of Hamaryx Forgefire",
+    "deceased": false
+  },
+  {
+    "id": "buell-the-temples-in-mardalla-city",
+    "name": "Buell",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Senior priest of Heimdall",
+    "deceased": false
+  },
+  {
+    "id": "dinesha-the-temples-in-mardalla-city",
+    "name": "Dinesha",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Senior priest of Heimdall",
+    "deceased": false
+  },
+  {
+    "id": "menz-the-temples-in-mardalla-city",
+    "name": "Menz",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Senior priest of Heimdall",
+    "deceased": false
+  },
+  {
+    "id": "mikkel-the-temples-in-mardalla-city",
+    "name": "Mikkel",
+    "group": "The Temples in Mardalla City",
+    "role": "Priest & Faith",
+    "description": "Senior priest of Hamaryx Forgefire",
+    "deceased": false
+  },
+  {
+    "id": "braise-blackiron-little-deeping",
+    "name": "Braise Blackiron",
+    "group": "Little Deeping",
+    "role": "Craft & Trade",
+    "description": "Blacksmith",
+    "deceased": false
+  },
+  {
+    "id": "brandon-little-deeping",
+    "name": "Brandon",
+    "group": "Little Deeping",
+    "role": "Notable Figure",
+    "description": "Butcher",
+    "deceased": false
+  },
+  {
+    "id": "dalmar-little-deeping",
+    "name": "Dalmar",
+    "group": "Little Deeping",
+    "role": "Family & Kin",
+    "description": "Son of Matilda and Merrick",
+    "deceased": false
+  },
+  {
+    "id": "dorell-blackiron-little-deeping",
+    "name": "Dorell Blackiron",
+    "group": "Little Deeping",
+    "role": "Family & Kin",
+    "description": "Son of Braise",
+    "deceased": false
+  },
+  {
+    "id": "harold-little-deeping",
+    "name": "Harold",
+    "group": "Little Deeping",
+    "role": "Craft & Trade",
+    "description": "Horsetrader",
+    "deceased": false
+  },
+  {
+    "id": "liam-little-deeping",
+    "name": "Liam",
+    "group": "Little Deeping",
+    "role": "Family & Kin",
+    "description": "Son of Brandon",
+    "deceased": false
+  },
+  {
+    "id": "matilda-little-deeping",
+    "name": "Matilda",
+    "group": "Little Deeping",
+    "role": "Craft & Trade",
+    "description": "Innkeeper at the Boar’s Tail, wife of Merrick",
+    "deceased": false
+  },
+  {
+    "id": "merrick-little-deeping",
+    "name": "Merrick",
+    "group": "Little Deeping",
+    "role": "Craft & Trade",
+    "description": "Innkeeper at the Boar’s Tail, husband of Matilda",
+    "deceased": false
+  },
+  {
+    "id": "sickle-little-deeping",
+    "name": "Sickle",
+    "group": "Little Deeping",
+    "role": "Mage & Magic",
+    "description": "Thief and wizard",
+    "deceased": false
+  },
+  {
+    "id": "sophia-little-deeping",
+    "name": "Sophia",
+    "group": "Little Deeping",
+    "role": "Leadership & Council",
+    "description": "Seer, senior councilmember",
+    "deceased": false
+  },
+  {
+    "id": "terren-little-deeping",
+    "name": "Terren",
+    "group": "Little Deeping",
+    "role": "Craft & Trade",
+    "description": "Leathersmith",
+    "deceased": false
+  },
+  {
+    "id": "thomas-little-deeping",
+    "name": "Thomas",
+    "group": "Little Deeping",
+    "role": "Family & Kin",
+    "description": "Son of Brandon",
+    "deceased": false
+  },
+  {
+    "id": "toren-little-deeping",
+    "name": "Toren",
+    "group": "Little Deeping",
+    "role": "Family & Kin",
+    "description": "Son of Terren",
+    "deceased": false
+  },
+  {
+    "id": "cornelius-lords-of-mardalla",
+    "name": "Cornelius",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "dalton-lords-of-mardalla",
+    "name": "Dalton",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "dorcas-lords-of-mardalla",
+    "name": "Dorcas",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "edmund-lords-of-mardalla",
+    "name": "Edmund",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "eulalion-lords-of-mardalla",
+    "name": "Eulalion",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "evaden-lords-of-mardalla",
+    "name": "Evaden",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "everett-lords-of-mardalla",
+    "name": "Everett",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "giles-lords-of-mardalla",
+    "name": "Giles",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "isadora-lords-of-mardalla",
+    "name": "Isadora",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "kendrick-lords-of-mardalla",
+    "name": "Kendrick",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "kloran-lords-of-mardalla",
+    "name": "Kloran",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "mikhail-lords-of-mardalla",
+    "name": "Mikhail",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "myron-lords-of-mardalla",
+    "name": "Myron",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "pancran-lords-of-mardalla",
+    "name": "Pancran",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "phillipa-lords-of-mardalla",
+    "name": "Phillipa",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "phoebe-lords-of-mardalla",
+    "name": "Phoebe",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "reydent-lords-of-mardalla",
+    "name": "Reydent",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "silas-lords-of-mardalla",
+    "name": "Silas",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "tristan-lords-of-mardalla",
+    "name": "Tristan",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "em-myst-thistle-lords-of-mardalla",
+    "name": "Em/Myst/Thistle",
+    "group": "Lords of Mardalla",
+    "role": "Royalty & Nobility",
+    "description": "A notable figure among the Lords of Mardalla, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "alistair-lord-cornelius",
+    "name": "Alistair",
+    "group": "Lord Cornelius",
+    "role": "Family & Kin",
+    "description": "Young son of Kaci",
+    "deceased": false
+  },
+  {
+    "id": "aspen-lord-cornelius",
+    "name": "Aspen",
+    "group": "Lord Cornelius",
+    "role": "Mage & Magic",
+    "race": "Gnome",
+    "description": "Gnome, Wild Mage, apprenticed to Blue",
+    "deceased": false
+  },
+  {
+    "id": "benjamin-lord-cornelius",
+    "name": "Benjamin",
+    "group": "Lord Cornelius",
+    "role": "Craft & Trade",
+    "description": "Blacksmith of Little Mayfield, also called Big Ben",
+    "deceased": false
+  },
+  {
+    "id": "blue-lord-cornelius",
+    "name": "Blue",
+    "group": "Lord Cornelius",
+    "role": "Mage & Magic",
+    "race": "Gnome",
+    "description": "Gnome, Wild Mage",
+    "deceased": false
+  },
+  {
+    "id": "connie-lord-cornelius",
+    "name": "Connie",
+    "group": "Lord Cornelius",
+    "role": "Craft & Trade",
+    "description": "Farmer's wife, Berryfields",
+    "deceased": false
+  },
+  {
+    "id": "darvin-telbreth-lord-cornelius",
+    "name": "Darvin Telbreth",
+    "group": "Lord Cornelius",
+    "role": "Craft & Trade",
+    "description": "Master leathersmith",
+    "deceased": false
+  },
+  {
+    "id": "florick-lord-cornelius",
+    "name": "Florick",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Lieutenant, guard of Lord Cornelius",
+    "deceased": false
+  },
+  {
+    "id": "franklin-lord-cornelius",
+    "name": "Franklin",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Lord Cornelius steward",
+    "deceased": false
+  },
+  {
+    "id": "galvin-lord-cornelius",
+    "name": "Galvin",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Villager",
+    "deceased": false
+  },
+  {
+    "id": "helen-takinos-lord-cornelius",
+    "name": "Helen Takinos",
+    "group": "Lord Cornelius",
+    "role": "Craft & Trade",
+    "description": "The Crazy Kitten Tavern, Berryfields",
+    "deceased": false
+  },
+  {
+    "id": "henry-lonmar-lord-cornelius",
+    "name": "Henry Lonmar",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Guard of Lord Cornelius",
+    "deceased": false
+  },
+  {
+    "id": "jesse-lord-cornelius",
+    "name": "Jesse",
+    "group": "Lord Cornelius",
+    "role": "Craft & Trade",
+    "description": "Blacksmith in Berryfields, father of Mickey",
+    "deceased": false
+  },
+  {
+    "id": "kaci-lord-cornelius",
+    "name": "Kaci",
+    "group": "Lord Cornelius",
+    "role": "Craft & Trade",
+    "description": "Villager, wife of blacksmith",
+    "deceased": false
+  },
+  {
+    "id": "karletta-lord-cornelius",
+    "name": "Karletta",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Head Chef",
+    "deceased": false
+  },
+  {
+    "id": "klora-lord-cornelius",
+    "name": "Klora",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Head of refugee kitchen",
+    "deceased": false
+  },
+  {
+    "id": "lerina-lord-cornelius",
+    "name": "Lerina",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Villager",
+    "deceased": false
+  },
+  {
+    "id": "lupe-la-blanca-lord-cornelius",
+    "name": "Lupe La Blanca",
+    "group": "Lord Cornelius",
+    "role": "Craft & Trade",
+    "description": "The Crazy Kitten Tavern, Berryfields",
+    "deceased": false
+  },
+  {
+    "id": "mickey-lord-cornelius",
+    "name": "Mickey",
+    "group": "Lord Cornelius",
+    "role": "Youth & Apprentice",
+    "description": "Young child of Berryfields",
+    "deceased": false
+  },
+  {
+    "id": "rosie-lord-cornelius",
+    "name": "Rosie",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Young village girl",
+    "deceased": false
+  },
+  {
+    "id": "sarah-lord-cornelius",
+    "name": "Sarah",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Villager, with young son",
+    "deceased": false
+  },
+  {
+    "id": "willa-lord-cornelius",
+    "name": "Willa",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "New Head Chef",
+    "deceased": false
+  },
+  {
+    "id": "zorin-lord-cornelius",
+    "name": "Zorin",
+    "group": "Lord Cornelius",
+    "role": "Royalty & Nobility",
+    "description": "Captain of Lord Cornelius’ guards.",
+    "deceased": false
+  },
+  {
+    "id": "anna-lady-dorcas-dormenthal",
+    "name": "Anna",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Leadership & Council",
+    "description": "Council member",
+    "deceased": false
+  },
+  {
+    "id": "bernard-lady-dorcas-dormenthal",
+    "name": "Bernard",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Military & Guard",
+    "description": "Dormenthal guard",
+    "deceased": false
+  },
+  {
+    "id": "bjorn-lady-dorcas-dormenthal",
+    "name": "Bjorn",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Priest & Faith",
+    "description": "Priest of Frey",
+    "deceased": false
+  },
+  {
+    "id": "bruin-lady-dorcas-dormenthal",
+    "name": "Bruin",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Leadership & Council",
+    "description": "Council member",
+    "deceased": false
+  },
+  {
+    "id": "burney-lady-dorcas-dormenthal",
+    "name": "Burney",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Military & Guard",
+    "description": "Dormenthal guard",
+    "deceased": false
+  },
+  {
+    "id": "eams-lady-dorcas-dormenthal",
+    "name": "Eams",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Military & Guard",
+    "description": "Captain of Dormenthal guard",
+    "deceased": false
+  },
+  {
+    "id": "eddie-lady-dorcas-dormenthal",
+    "name": "Eddie",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Military & Guard",
+    "description": "Dormenthal guard",
+    "deceased": false
+  },
+  {
+    "id": "edward-thomas-lady-dorcas-dormenthal",
+    "name": "Edward Thomas",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Craft & Trade",
+    "description": "Tavern owner, Rye and Honey",
+    "deceased": false
+  },
+  {
+    "id": "ellen-lady-dorcas-dormenthal",
+    "name": "Ellen",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Family & Kin",
+    "description": "Wife of Edward Thomas",
+    "deceased": false
+  },
+  {
+    "id": "george-lady-dorcas-dormenthal",
+    "name": "George",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Military & Guard",
+    "description": "Dormenthal guard",
+    "deceased": false
+  },
+  {
+    "id": "gerald-lady-dorcas-dormenthal",
+    "name": "Gerald",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Leadership & Council",
+    "description": "Council member",
+    "deceased": false
+  },
+  {
+    "id": "gretchen-lady-dorcas-dormenthal",
+    "name": "Gretchen",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Craft & Trade",
+    "description": "Herbalist and alchemist",
+    "deceased": false
+  },
+  {
+    "id": "jaloren-lady-dorcas-dormenthal",
+    "name": "Jaloren",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Priest & Faith",
+    "race": "Human",
+    "description": "Human priest of Frey.",
+    "deceased": false
+  },
+  {
+    "id": "jenniwyn-lady-dorcas-dormenthal",
+    "name": "Jenniwyn",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Royalty & Nobility",
+    "description": "Assistant and lady-in-waiting",
+    "deceased": false
+  },
+  {
+    "id": "joel-lady-dorcas-dormenthal",
+    "name": "Joel",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Craft & Trade",
+    "description": "Master leathersmith",
+    "deceased": false
+  },
+  {
+    "id": "jonwen-lady-dorcas-dormenthal",
+    "name": "Jonwen",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Royalty & Nobility",
+    "description": "King's Ranger",
+    "deceased": false
+  },
+  {
+    "id": "junie-lady-dorcas-dormenthal",
+    "name": "Junie",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Military & Guard",
+    "description": "Dormenthal guard",
+    "deceased": false
+  },
+  {
+    "id": "maggie-lady-dorcas-dormenthal",
+    "name": "Maggie",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Youth & Apprentice",
+    "description": "Village child",
+    "deceased": false
+  },
+  {
+    "id": "mordekai-ashmoor-lady-dorcas-dormenthal",
+    "name": "Mordekai Ashmoor",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Royalty & Nobility",
+    "description": "Captain, King’s Rangers",
+    "deceased": false
+  },
+  {
+    "id": "norah-lady-dorcas-dormenthal",
+    "name": "Norah",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Royalty & Nobility",
+    "description": "Head housekeeper",
+    "deceased": false
+  },
+  {
+    "id": "phineas-lady-dorcas-dormenthal",
+    "name": "Phineas",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Leadership & Council",
+    "description": "Council member",
+    "deceased": false
+  },
+  {
+    "id": "randall-lady-dorcas-dormenthal",
+    "name": "Randall",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Craft & Trade",
+    "description": "Maggie's dad, blacksmith",
+    "deceased": false
+  },
+  {
+    "id": "rayn-ivyleaf-lady-dorcas-dormenthal",
+    "name": "Rayn Ivyleaf",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Royalty & Nobility",
+    "description": "King’s Ranger",
+    "deceased": false
+  },
+  {
+    "id": "taeren-crystalyr-lady-dorcas-dormenthal",
+    "name": "Taeren Crystalyr",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Priest & Faith",
+    "race": "Elf",
+    "description": "Elven priest of Aristalor",
+    "deceased": false
+  },
+  {
+    "id": "talya-lady-dorcas-dormenthal",
+    "name": "Talya",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Priest & Faith",
+    "race": "Human",
+    "description": "Human priestess of Heimdall",
+    "deceased": false
+  },
+  {
+    "id": "teddy-lady-dorcas-dormenthal",
+    "name": "Teddy",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Youth & Apprentice",
+    "description": "Village child",
+    "deceased": false
+  },
+  {
+    "id": "tommy-lady-dorcas-dormenthal",
+    "name": "Tommy",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Youth & Apprentice",
+    "description": "Village child",
+    "deceased": false
+  },
+  {
+    "id": "willen-lady-dorcas-dormenthal",
+    "name": "Willen",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Royalty & Nobility",
+    "description": "Sergeant, King’s Ranger",
+    "deceased": false
+  },
+  {
+    "id": "willie-lady-dorcas-dormenthal",
+    "name": "Willie",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Military & Guard",
+    "description": "Dormenthal guard",
+    "deceased": false
+  },
+  {
+    "id": "zoey-lady-dorcas-dormenthal",
+    "name": "Zoey",
+    "group": "Lady Dorcas/Dormenthal",
+    "role": "Youth & Apprentice",
+    "description": "Village child",
+    "deceased": false
+  },
+  {
+    "id": "atris-lord-giles",
+    "name": "Atris",
+    "group": "Lord Giles",
+    "role": "Royalty & Nobility",
+    "description": "Younger son of Lord Giles",
+    "deceased": false
+  },
+  {
+    "id": "danvy-lord-giles",
+    "name": "Danvy",
+    "group": "Lord Giles",
+    "role": "Royalty & Nobility",
+    "description": "Cousin of Lord Giles",
+    "deceased": true
+  },
+  {
+    "id": "greyvon-lord-giles",
+    "name": "Greyvon",
+    "group": "Lord Giles",
+    "role": "Royalty & Nobility",
+    "description": "Oldest child (son) of Lord Giles",
+    "deceased": false
+  },
+  {
+    "id": "krista-lord-giles",
+    "name": "Krista",
+    "group": "Lord Giles",
+    "role": "Royalty & Nobility",
+    "description": "Daughter of Lord Giles",
+    "deceased": false
+  },
+  {
+    "id": "patic-lord-giles",
+    "name": "Patic",
+    "group": "Lord Giles",
+    "role": "Royalty & Nobility",
+    "description": "Guard of Lord Giles",
+    "deceased": false
+  },
+  {
+    "id": "tallyith-lord-giles",
+    "name": "Tallyith",
+    "group": "Lord Giles",
+    "role": "Royalty & Nobility",
+    "description": "Wife of Lord Giles",
+    "deceased": false
+  },
+  {
+    "id": "tanmir-lord-giles",
+    "name": "Tanmir",
+    "group": "Lord Giles",
+    "role": "Royalty & Nobility",
+    "description": "Sergeant, guard of Lord Giles",
+    "deceased": false
+  },
+  {
+    "id": "larry-pines-pinebox-inn-lady-isadora-s-lands",
+    "name": "Larry Pines",
+    "group": "Pinebox Inn, Lady Isadora's Lands",
+    "role": "Royalty & Nobility",
+    "description": "Innkeeper, Pinebox Inn, Lady Isadora’s lands",
+    "deceased": false
+  },
+  {
+    "id": "salora-pines-pinebox-inn-lady-isadora-s-lands",
+    "name": "Salora Pines",
+    "group": "Pinebox Inn, Lady Isadora's Lands",
+    "role": "Family & Kin",
+    "description": "Cousin of Larry Pine of the Pinebox Inn",
+    "deceased": false
+  },
+  {
+    "id": "braddon-pines-pinebox-inn-lady-isadora-s-lands",
+    "name": "Braddon Pines",
+    "group": "Pinebox Inn, Lady Isadora's Lands",
+    "role": "Family & Kin",
+    "description": "Cousin of Larry Pine of the Pinebox Inn",
+    "deceased": false
+  },
+  {
+    "id": "silma-pinebox-inn-lady-isadora-s-lands",
+    "name": "Silma",
+    "group": "Pinebox Inn, Lady Isadora's Lands",
+    "role": "Family & Kin",
+    "description": "Daughter of Larry Pines",
+    "deceased": false
+  },
+  {
+    "id": "kalasia-ebonwood-lord-mikhail",
+    "name": "Kalasia Ebonwood",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Wife of Lord Mikhail Ebonwood",
+    "deceased": false
+  },
+  {
+    "id": "mickaela-ebonwood-lord-mikhail",
+    "name": "Mickaela Ebonwood",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Firstborn daughter of Lord Mikhail",
+    "deceased": false
+  },
+  {
+    "id": "belden-lord-mikhail",
+    "name": "Belden",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Ranger in Lord Mikhail’s lands",
+    "deceased": false
+  },
+  {
+    "id": "delanen-lord-mikhail",
+    "name": "Delanen",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Ranger in Lord Mikhail’s lands",
+    "deceased": false
+  },
+  {
+    "id": "dorset-lord-mikhail",
+    "name": "Dorset",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Ranger in Lord Mikhail’s lands",
+    "deceased": false
+  },
+  {
+    "id": "lorren-lord-mikhail",
+    "name": "Lorren",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Ranger in Lord Mikhail’s lands",
+    "deceased": false
+  },
+  {
+    "id": "raylena-lord-mikhail",
+    "name": "Raylena",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Ranger in Lord Mikhail’s lands",
+    "deceased": false
+  },
+  {
+    "id": "sallis-lord-mikhail",
+    "name": "Sallis",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Ranger in Lord Mikhail’s lands",
+    "deceased": false
+  },
+  {
+    "id": "torri-lord-mikhail",
+    "name": "Torri",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Niece of Lady Kalasia, ranger in Lord Mikhail’s lands",
+    "deceased": false
+  },
+  {
+    "id": "turny-lord-mikhail",
+    "name": "Turny",
+    "group": "Lord Mikhail",
+    "role": "Royalty & Nobility",
+    "description": "Nephew of Dorset, Ranger in Lord Mikhail’s lands",
+    "deceased": false
+  },
+  {
+    "id": "adelina-mardalla-people-of-the-lords",
+    "name": "Adelina",
+    "group": "Mardalla, People of the Lords",
+    "role": "Family & Kin",
+    "description": "Wife of Everett DiShantana",
+    "deceased": false
+  },
+  {
+    "id": "augustus-william-cortanza-mardalla-people-of-the-lords",
+    "name": "Augustus William Cortanza",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Admiral and cousin to Lord Edmund",
+    "deceased": false
+  },
+  {
+    "id": "carl-mardalla-people-of-the-lords",
+    "name": "Carl",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Younger brother of Lord Kloran",
+    "deceased": false
+  },
+  {
+    "id": "carlyle-mardalla-people-of-the-lords",
+    "name": "Carlyle",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Son of Lord Everett DiShantana",
+    "deceased": false
+  },
+  {
+    "id": "dentis-mardalla-people-of-the-lords",
+    "name": "Dentis",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Male specialty steward to Lord Dalton",
+    "deceased": false
+  },
+  {
+    "id": "fayedhe-mardalla-people-of-the-lords",
+    "name": "Fayedhe",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Master shipwright to Lord Silas",
+    "deceased": false
+  },
+  {
+    "id": "fritsia-mardalla-people-of-the-lords",
+    "name": "Fritsia",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Personal maid to Lady Pheobe",
+    "deceased": false
+  },
+  {
+    "id": "hanson-mardalla-people-of-the-lords",
+    "name": "Hanson",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Steward to Lord Pancran",
+    "deceased": false
+  },
+  {
+    "id": "helenia-mardalla-people-of-the-lords",
+    "name": "Helenia",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Wife of Lord Kloran",
+    "deceased": false
+  },
+  {
+    "id": "jamiesy-mardalla-people-of-the-lords",
+    "name": "Jamiesy",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Steward to Lady Isadora",
+    "deceased": false
+  },
+  {
+    "id": "jorden-mardalla-people-of-the-lords",
+    "name": "Jorden",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Captain of the guards for Lady Isadora",
+    "deceased": false
+  },
+  {
+    "id": "lonnie-mardalla-people-of-the-lords",
+    "name": "Lonnie",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Guard of Lord Everett",
+    "deceased": false
+  },
+  {
+    "id": "patrick-mardalla-people-of-the-lords",
+    "name": "Patrick",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Husband and war leader to Lady Pheobe",
+    "deceased": false
+  },
+  {
+    "id": "petrisse-mardalla-people-of-the-lords",
+    "name": "Petrisse",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Advisor to Lord Eulalion",
+    "deceased": false
+  },
+  {
+    "id": "smythe-mardalla-people-of-the-lords",
+    "name": "Smythe",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Lieutenant, Guard of Lord Eulalion",
+    "deceased": false
+  },
+  {
+    "id": "thomson-mardalla-people-of-the-lords",
+    "name": "Thomson",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Friend and captain of the guard for Lord Kendrick",
+    "deceased": false
+  },
+  {
+    "id": "walton-mardalla-people-of-the-lords",
+    "name": "Walton",
+    "group": "Mardalla, People of the Lords",
+    "role": "Royalty & Nobility",
+    "description": "Servant to Lord Myron",
+    "deceased": false
+  },
+  {
+    "id": "floren-bloom-halflings-lord-eulalion-s-lands",
+    "name": "Floren Bloom",
+    "group": "Halflings, Lord Eulalion's lands",
+    "role": "Leadership & Council",
+    "description": "Senior leader of Daisy Meadows",
+    "deceased": false
+  },
+  {
+    "id": "warren-leafstem-halflings-lord-eulalion-s-lands",
+    "name": "Warren Leafstem",
+    "group": "Halflings, Lord Eulalion's lands",
+    "role": "Craft & Trade",
+    "description": "Tavern The Mug and Jug, Daisy Meadows",
+    "deceased": false
+  },
+  {
+    "id": "maybel-leafstem-halflings-lord-eulalion-s-lands",
+    "name": "Maybel Leafstem",
+    "group": "Halflings, Lord Eulalion's lands",
+    "role": "Craft & Trade",
+    "description": "Tavern The Mug and Jug, Daisy Meadows",
+    "deceased": false
+  },
+  {
+    "id": "megan-halflings-lord-eulalion-s-lands",
+    "name": "Megan",
+    "group": "Halflings, Lord Eulalion's lands",
+    "role": "Notable Figure",
+    "description": "Michael’s mother, Daisy Meadows",
+    "deceased": false
+  },
+  {
+    "id": "michael-halflings-lord-eulalion-s-lands",
+    "name": "Michael",
+    "group": "Halflings, Lord Eulalion's lands",
+    "role": "Youth & Apprentice",
+    "race": "Halfling",
+    "description": "Sick Halfling child, Daisy Meadows",
+    "deceased": false
+  },
+  {
+    "id": "mixin-halflings-lord-eulalion-s-lands",
+    "name": "Mixin",
+    "group": "Halflings, Lord Eulalion's lands",
+    "role": "Craft & Trade",
+    "race": "Halfling",
+    "description": "Halfling herbalist and alchemist, Smoky Springs",
+    "deceased": false
+  },
+  {
+    "id": "tadeus-stillwater-halflings-lord-eulalion-s-lands",
+    "name": "Tadeus Stillwater",
+    "group": "Halflings, Lord Eulalion's lands",
+    "role": "Leadership & Council",
+    "description": "Senior council member of Smoky Springs",
+    "deceased": false
+  },
+  {
+    "id": "king-highhammer-highhammer-dwarven-stronghold",
+    "name": "King Highhammer",
+    "group": "Highhammer Dwarven Stronghold",
+    "role": "Notable Figure",
+    "race": "Dwarf",
+    "description": "A notable figure among the Highhammer Dwarven Stronghold, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "otson-shieldwall-highhammer-dwarven-stronghold",
+    "name": "Otson Shieldwall",
+    "group": "Highhammer Dwarven Stronghold",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Pack Leader, Dwarven captain of guards",
+    "deceased": false
+  },
+  {
+    "id": "latya-highhammer-dwarven-stronghold",
+    "name": "Latya",
+    "group": "Highhammer Dwarven Stronghold",
+    "role": "Notable Figure",
+    "race": "Dwarf",
+    "description": "Female Dwarf",
+    "deceased": false
+  },
+  {
+    "id": "dura-ironforge-ironforge-dwarven-stronghold",
+    "name": "Dura Ironforge",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Lieutenant, rider of boar Windsmasher",
+    "deceased": false
+  },
+  {
+    "id": "ivor-ironforge-ironforge-dwarven-stronghold",
+    "name": "Ivor Ironforge",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "General, Ironforge guards",
+    "deceased": false
+  },
+  {
+    "id": "firebolt-ironforge-dwarven-stronghold",
+    "name": "Firebolt",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Sergeant, Ironforge guards",
+    "deceased": false
+  },
+  {
+    "id": "blackshield-ironforge-dwarven-stronghold",
+    "name": "Blackshield",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Sergeant, Ironforge guards",
+    "deceased": false
+  },
+  {
+    "id": "nolen-hillrunner-ironforge-dwarven-stronghold",
+    "name": "Nolen Hillrunner",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Guard, rider of boar Forgestormer",
+    "deceased": false
+  },
+  {
+    "id": "rockhammer-clan-ironforge-dwarven-stronghold",
+    "name": "Rockhammer clan",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Stonecutters, stonemasons",
+    "deceased": false
+  },
+  {
+    "id": "darktanner-clan-ironforge-dwarven-stronghold",
+    "name": "Darktanner clan",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Leathersmiths",
+    "deceased": false
+  },
+  {
+    "id": "tila-darktanner-ironforge-dwarven-stronghold",
+    "name": "Tila Darktanner",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Master Leathersmith",
+    "deceased": false
+  },
+  {
+    "id": "firecutter-clan-ironforge-dwarven-stronghold",
+    "name": "Firecutter clan",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Notable Figure",
+    "race": "Dwarf",
+    "description": "Gem smiths",
+    "deceased": false
+  },
+  {
+    "id": "terek-darktanner-ironforge-dwarven-stronghold",
+    "name": "Terek Darktanner",
+    "group": "Ironforge Dwarven Stronghold",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Leathersmith",
+    "deceased": false
+  },
+  {
+    "id": "arlin-twinpicks-copper-crest-dwarven-stronghold",
+    "name": "Arlin Twinpicks",
+    "group": "Copper Crest Dwarven Stronghold",
+    "role": "Leadership & Council",
+    "race": "Dwarf",
+    "description": "Leader.",
+    "deceased": false
+  },
+  {
+    "id": "poran-sandstone-copper-crest-dwarven-stronghold",
+    "name": "Poran Sandstone",
+    "group": "Copper Crest Dwarven Stronghold",
+    "role": "Notable Figure",
+    "race": "Dwarf",
+    "description": "Male Dwarf in charge of agriculture",
+    "deceased": false
+  },
+  {
+    "id": "derkl-twinaxe-copper-crest-dwarven-stronghold",
+    "name": "Derkl Twinaxe",
+    "group": "Copper Crest Dwarven Stronghold",
+    "role": "Notable Figure",
+    "race": "Dwarf",
+    "description": "Male Dwarf in charge of the mines",
+    "deceased": false
+  },
+  {
+    "id": "turvin-twinpicks-copper-crest-dwarven-stronghold",
+    "name": "Turvin Twinpicks",
+    "group": "Copper Crest Dwarven Stronghold",
+    "role": "Family & Kin",
+    "race": "Dwarf",
+    "description": "Dwarven son of Arlin Twinpicks",
+    "deceased": false
+  },
+  {
+    "id": "sergeant-dennen-twinpicks-copper-crest-dwarven-stronghold",
+    "name": "Sergeant Dennen Twinpicks",
+    "group": "Copper Crest Dwarven Stronghold",
+    "role": "Military & Guard",
+    "race": "Dwarf",
+    "description": "Sergeant, cousin to Arlin.",
+    "deceased": false
+  },
+  {
+    "id": "kadel-copper-crest-dwarven-stronghold",
+    "name": "Kadel",
+    "group": "Copper Crest Dwarven Stronghold",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Dwarven miner",
+    "deceased": false
+  },
+  {
+    "id": "tallyr-copper-crest-dwarven-stronghold",
+    "name": "Tallyr",
+    "group": "Copper Crest Dwarven Stronghold",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Dwarven miner",
+    "deceased": true
+  },
+  {
+    "id": "turrel-copper-crest-dwarven-stronghold",
+    "name": "Turrel",
+    "group": "Copper Crest Dwarven Stronghold",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarven miner",
+    "deceased": false
+  },
+  {
+    "id": "durrel-copper-crest-dwarven-stronghold",
+    "name": "Durrel",
+    "group": "Copper Crest Dwarven Stronghold",
+    "role": "Craft & Trade",
+    "race": "Dwarf",
+    "description": "Male Dwarven miner",
+    "deceased": false
+  },
+  {
+    "id": "overlord-ash-greysmoke-xii-cinderflow-dwarven-stronghold",
+    "name": "Overlord Ash Greysmoke XII",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Royalty & Nobility",
+    "race": "Dwarf",
+    "description": "Ruler of Cinderflow,",
+    "deceased": false
+  },
+  {
+    "id": "olgat-cinderflow-dwarven-stronghold",
+    "name": "Olgat",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Priest & Faith",
+    "race": "Dwarf",
+    "description": "High Priestess of the temple of Uxia Hearthstone;",
+    "deceased": false
+  },
+  {
+    "id": "kerjen-cinderflow-dwarven-stronghold",
+    "name": "Kerjen",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Priest & Faith",
+    "race": "Dwarf",
+    "description": "High Priest of the temple of Kawan Shieldhonor;",
+    "deceased": false
+  },
+  {
+    "id": "myson-cinderflow-dwarven-stronghold",
+    "name": "Myson",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Priest & Faith",
+    "race": "Dwarf",
+    "description": "High Priest of the temple of Hamaryx Forgefire;",
+    "deceased": false
+  },
+  {
+    "id": "shadella-cinderflow-dwarven-stronghold",
+    "name": "Shadella",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Priest & Faith",
+    "race": "Dwarf",
+    "description": "High Priestess of the temple of Yarkona Deepcavern;",
+    "deceased": false
+  },
+  {
+    "id": "burelk-strongtunnel-cinderflow-dwarven-stronghold",
+    "name": "Burelk Strongtunnel",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Notable Figure",
+    "race": "Dwarf",
+    "description": "Dwarven senior Artisan",
+    "deceased": false
+  },
+  {
+    "id": "lornila-saltmill-cinderflow-dwarven-stronghold",
+    "name": "Lornila Saltmill",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Notable Figure",
+    "race": "Dwarf",
+    "description": "Harvester",
+    "deceased": false
+  },
+  {
+    "id": "ruvex-clawbreaker-cinderflow-dwarven-stronghold",
+    "name": "Ruvex Clawbreaker",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Leadership & Council",
+    "race": "Dwarf",
+    "description": "Our senior military leader",
+    "deceased": false
+  },
+  {
+    "id": "broden-clawbreaker-cinderflow-dwarven-stronghold",
+    "name": "Broden Clawbreaker",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Ranger & Scout",
+    "race": "Dwarf",
+    "description": "Male Dwarven Hunter",
+    "deceased": false
+  },
+  {
+    "id": "syrsa-clawbreaker-cinderflow-dwarven-stronghold",
+    "name": "Syrsa Clawbreaker",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Notable Figure",
+    "race": "Dwarf",
+    "description": "Female Dwarven Huntress",
+    "deceased": false
+  },
+  {
+    "id": "telker-cinderflow-dwarven-stronghold",
+    "name": "Telker",
+    "group": "Cinderflow Dwarven Stronghold",
+    "role": "Notable Figure",
+    "race": "Dwarf",
+    "description": "Male Dwarf, Slatekeeper for Cinderflow.",
+    "deceased": false
+  },
+  {
+    "id": "king-erik-hammer-hammer-holme",
+    "name": "King Erik Hammer",
+    "group": "Hammer Holme",
+    "role": "Notable Figure",
+    "description": "A notable figure among the Hammer Holme, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "queen-tilda-hammer-hammer-holme",
+    "name": "Queen Tilda Hammer",
+    "group": "Hammer Holme",
+    "role": "Notable Figure",
+    "description": "A notable figure among the Hammer Holme, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "neldar-hammer-holme",
+    "name": "Neldar",
+    "group": "Hammer Holme",
+    "role": "Military & Guard",
+    "description": "Sergeant",
+    "deceased": false
+  },
+  {
+    "id": "talron-hammer-holme",
+    "name": "Talron",
+    "group": "Hammer Holme",
+    "role": "Leadership & Council",
+    "description": "Steward",
+    "deceased": false
+  },
+  {
+    "id": "jaylen-hammer-holme",
+    "name": "Jaylen",
+    "group": "Hammer Holme",
+    "role": "Notable Figure",
+    "description": "Keep servant",
+    "deceased": false
+  },
+  {
+    "id": "donnell-panzer-hammer-holme",
+    "name": "Donnell Panzer",
+    "group": "Hammer Holme",
+    "role": "Notable Figure",
+    "description": "Head chef at Keep",
+    "deceased": false
+  },
+  {
+    "id": "damil-hammer-holme",
+    "name": "Damil",
+    "group": "Hammer Holme",
+    "role": "Notable Figure",
+    "description": "Former Keep servant",
+    "deceased": false
+  },
+  {
+    "id": "benny-hammer-holme",
+    "name": "Benny",
+    "group": "Hammer Holme",
+    "role": "Notable Figure",
+    "description": "Bartender of the Rusty Anchor",
+    "deceased": false
+  },
+  {
+    "id": "torell-poortown",
+    "name": "Torell",
+    "group": "Poortown",
+    "role": "Royalty & Nobility",
+    "description": "Prince, Poortown",
+    "deceased": false
+  },
+  {
+    "id": "lysanna-poortown",
+    "name": "Lysanna",
+    "group": "Poortown",
+    "role": "Royalty & Nobility",
+    "description": "Princess of Poortown, sister of Torell",
+    "deceased": false
+  },
+  {
+    "id": "arviz-poortown",
+    "name": "Arviz",
+    "group": "Poortown",
+    "role": "Craft & Trade",
+    "description": "Water merchant",
+    "deceased": false
+  },
+  {
+    "id": "sadiki-poortown",
+    "name": "Sadiki",
+    "group": "Poortown",
+    "role": "Priest & Faith",
+    "description": "High Priest of Set",
+    "deceased": true
+  },
+  {
+    "id": "gyasi-poortown",
+    "name": "Gyasi",
+    "group": "Poortown",
+    "role": "Priest & Faith",
+    "description": "A priest of Horus",
+    "deceased": false
+  },
+  {
+    "id": "annabell-santiana",
+    "name": "Annabell",
+    "group": "Santiana",
+    "role": "Craft & Trade",
+    "description": "Widowed farmer's wife",
+    "deceased": false
+  },
+  {
+    "id": "barnaby-santiana",
+    "name": "Barnaby",
+    "group": "Santiana",
+    "role": "Notable Figure",
+    "description": "Owner of The Harrier and Hound Inn",
+    "deceased": false
+  },
+  {
+    "id": "benny-santiana",
+    "name": "Benny",
+    "group": "Santiana",
+    "role": "Notable Figure",
+    "description": "Delivers from castle kitchen",
+    "deceased": false
+  },
+  {
+    "id": "crabenor-santiana",
+    "name": "Crabenor",
+    "group": "Santiana",
+    "role": "Leadership & Council",
+    "description": "Senior Councilmember",
+    "deceased": false
+  },
+  {
+    "id": "darly-santiana",
+    "name": "Darly",
+    "group": "Santiana",
+    "role": "Notable Figure",
+    "description": "Worker, Sorenson Warehouse",
+    "deceased": false
+  },
+  {
+    "id": "davey-santiana",
+    "name": "Davey",
+    "group": "Santiana",
+    "role": "Notable Figure",
+    "description": "Tour Guide, friend",
+    "deceased": true
+  },
+  {
+    "id": "frankie-santiana",
+    "name": "Frankie",
+    "group": "Santiana",
+    "role": "Notable Figure",
+    "description": "Accountant, Dockmaster's office",
+    "deceased": false
+  },
+  {
+    "id": "horace-santiana",
+    "name": "Horace",
+    "group": "Santiana",
+    "role": "Royalty & Nobility",
+    "description": "King of Santiana",
+    "deceased": true
+  },
+  {
+    "id": "ilka-santiana",
+    "name": "Ilka",
+    "group": "Santiana",
+    "role": "Craft & Trade",
+    "description": "Tavern waitress at The Oaken Root",
+    "deceased": false
+  },
+  {
+    "id": "joswyn-santiana",
+    "name": "Joswyn",
+    "group": "Santiana",
+    "role": "Royalty & Nobility",
+    "description": "Friend of Prince Satwin",
+    "deceased": false
+  },
+  {
+    "id": "kerrel-olen-santiana",
+    "name": "Kerrel Olen",
+    "group": "Santiana",
+    "role": "Notable Figure",
+    "description": "Dishwasher at The Oaken Root",
+    "deceased": false
+  },
+  {
+    "id": "lefty-santiana",
+    "name": "Lefty",
+    "group": "Santiana",
+    "role": "Notable Figure",
+    "description": "Stevedore, Sorenson Warehouse",
+    "deceased": false
+  },
+  {
+    "id": "lexy-santiana",
+    "name": "Lexy",
+    "group": "Santiana",
+    "role": "Leadership & Council",
+    "description": "Daughter of Nicolas, Council Member",
+    "deceased": false
+  },
+  {
+    "id": "matilda-santiana",
+    "name": "Matilda",
+    "group": "Santiana",
+    "role": "Notable Figure",
+    "description": "Head housekeeper",
+    "deceased": false
+  },
+  {
+    "id": "nicolas-santiana",
+    "name": "Nicolas",
+    "group": "Santiana",
+    "role": "Leadership & Council",
+    "description": "Butcher and Council Member",
+    "deceased": false
+  },
+  {
+    "id": "sangor-santiana",
+    "name": "Sangor",
+    "group": "Santiana",
+    "role": "Royalty & Nobility",
+    "description": "Friend of Prince Satwin",
+    "deceased": false
+  },
+  {
+    "id": "satwin-santiana",
+    "name": "Satwin",
+    "group": "Santiana",
+    "role": "Royalty & Nobility",
+    "description": "King of Santiana",
+    "deceased": false
+  },
+  {
+    "id": "the-olen-women-santiana",
+    "name": "The Olen Women",
+    "group": "Santiana",
+    "role": "Notable Figure",
+    "description": "Cleaning service",
+    "deceased": false
+  },
+  {
+    "id": "prince-joven-southern-kingdom-trevidor",
+    "name": "Prince Joven",
+    "group": "Southern Kingdom/Trevidor",
+    "role": "Notable Figure",
+    "description": "A notable figure among the Southern Kingdom/Trevidor, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "princess-jonivar-southern-kingdom-trevidor",
+    "name": "Princess Jonivar",
+    "group": "Southern Kingdom/Trevidor",
+    "role": "Notable Figure",
+    "description": "A notable figure among the Southern Kingdom/Trevidor, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "prince-and-heir-jevanor-southern-kingdom-trevidor",
+    "name": "Prince and Heir Jevanor",
+    "group": "Southern Kingdom/Trevidor",
+    "role": "Notable Figure",
+    "description": "A notable figure among the Southern Kingdom/Trevidor, their story yet to be fully told.",
+    "deceased": false
+  },
+  {
+    "id": "tomyn-almeric-almerics",
+    "name": "Tomyn Almeric",
+    "group": "Almerics",
+    "role": "Leadership & Council",
+    "description": "Current leader of hidden enclave.",
+    "deceased": false
+  },
+  {
+    "id": "dakari-almeric-almerics",
+    "name": "Dakari Almeric",
+    "group": "Almerics",
+    "role": "Family & Kin",
+    "description": "Son of Tomyn",
+    "deceased": false
+  },
+  {
+    "id": "shaylene-almeric-almerics",
+    "name": "Shaylene Almeric",
+    "group": "Almerics",
+    "role": "Family & Kin",
+    "description": "Daughter of Tomyn",
+    "deceased": false
+  },
+  {
+    "id": "briar-thistle-asteria",
+    "name": "Briar Thistle",
+    "group": "Asteria",
+    "role": "Leadership & Council",
+    "race": "Elf",
+    "description": "Leader of hidden Elven enclave of Asteria",
+    "deceased": false
+  },
+  {
+    "id": "relor-asteria",
+    "name": "Relor",
+    "group": "Asteria",
+    "role": "Military & Guard",
+    "description": "Captain of Asteria guard",
+    "deceased": false
+  },
+  {
+    "id": "miri-moon-asteria",
+    "name": "Miri Moon",
+    "group": "Asteria",
+    "role": "Ranger & Scout",
+    "description": "Ranger for Briar Thistle's enclave",
+    "deceased": false
+  },
+  {
+    "id": "jasmine-moon-asteria",
+    "name": "Jasmine Moon",
+    "group": "Asteria",
+    "role": "Ranger & Scout",
+    "description": "Ranger for Briar Thistle's enclave",
+    "deceased": false
+  },
+  {
+    "id": "lilly-moon-asteria",
+    "name": "Lilly Moon",
+    "group": "Asteria",
+    "role": "Ranger & Scout",
+    "description": "Ranger and spy for Briar Thistle and Briar's enclave",
+    "deceased": false
+  },
+  {
+    "id": "cedar-asteria",
+    "name": "Cedar",
+    "group": "Asteria",
+    "role": "Leadership & Council",
+    "description": "Advisor to Briar Thistle",
+    "deceased": false
+  },
+  {
+    "id": "xalis-mossybough-asteria",
+    "name": "Xalis Mossybough",
+    "group": "Asteria",
+    "role": "Priest & Faith",
+    "race": "Elf",
+    "description": "Elven high priestess of Aristalor,",
+    "deceased": false
+  },
+  {
+    "id": "conaery-halamaken-elves-of-the-past",
+    "name": "Conaery Halamaken",
+    "group": "Elves of the Past",
+    "role": "Notable Figure",
+    "description": "Bard",
+    "deceased": true
+  },
+  {
+    "id": "tisa-almeric-elves-of-the-past",
+    "name": "Tisa Almeric",
+    "group": "Elves of the Past",
+    "role": "Leadership & Council",
+    "description": "Diplomat",
+    "deceased": true
+  },
+  {
+    "id": "kit-lakotani-elves-of-the-past",
+    "name": "Kit Lakotani",
+    "group": "Elves of the Past",
+    "role": "Ranger & Scout",
+    "description": "Archer",
+    "deceased": true
+  },
+  {
+    "id": "krilosa-loreleia-elves-of-the-past",
+    "name": "Krilosa Loreleia",
+    "group": "Elves of the Past",
+    "role": "Priest & Faith",
+    "description": "Paladin, last holder of Loreleia Shield (artifact)",
+    "deceased": true
+  },
+  {
+    "id": "macana-halamaken-elves-of-the-past",
+    "name": "Macana Halamaken",
+    "group": "Elves of the Past",
+    "role": "Family & Kin",
+    "description": "Sister of Conaery",
+    "deceased": true
+  },
+  {
+    "id": "reyl-darinae-elves-of-the-past",
+    "name": "Reyl Darinae",
+    "group": "Elves of the Past",
+    "role": "Royalty & Nobility",
+    "description": "Younger brother of King Reede of Mardalla",
+    "deceased": true
+  },
+  {
+    "id": "reede-darinae-elves-of-the-past",
+    "name": "Reede Darinae",
+    "group": "Elves of the Past",
+    "role": "Royalty & Nobility",
+    "description": "Former King of Mardalla, grandfather of Corzo",
+    "deceased": true
+  },
+  {
+    "id": "rosura-telerikke-elves-of-the-past",
+    "name": "Rosura Telerikke",
+    "group": "Elves of the Past",
+    "role": "Craft & Trade",
+    "description": "Miner and ghost",
+    "deceased": true
+  },
+  {
+    "id": "sable-star-elves-of-the-past",
+    "name": "Sable Star",
+    "group": "Elves of the Past",
+    "role": "Notable Figure",
+    "description": "Ghost",
+    "deceased": true
+  },
+  {
+    "id": "frostfang-dragons-of-light",
+    "name": "Frostfang",
+    "group": "Dragons of Light",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Male Ash Dragon",
+    "deceased": false
+  },
+  {
+    "id": "june-dragons-of-light",
+    "name": "June",
+    "group": "Dragons of Light",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Female Gossamer Sea Dragon",
+    "deceased": false
+  },
+  {
+    "id": "kai-nalu-dragons-of-light",
+    "name": "Kai’nalu",
+    "group": "Dragons of Light",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Male Gossamer Sea Dragon",
+    "deceased": false
+  },
+  {
+    "id": "starlight-dragons-of-light",
+    "name": "Starlight",
+    "group": "Dragons of Light",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Female Gossamer Dragon",
+    "deceased": false
+  },
+  {
+    "id": "glimmer-dragons-of-light",
+    "name": "Glimmer",
+    "group": "Dragons of Light",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Male Gossamer Dragon",
+    "deceased": false
+  },
+  {
+    "id": "brass-dragons-of-light",
+    "name": "Brass",
+    "group": "Dragons of Light",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Male Sand Dragon",
+    "deceased": false
+  },
+  {
+    "id": "charlie-dragons-of-light",
+    "name": "Charlie",
+    "group": "Dragons of Light",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Male Sand Dragon",
+    "deceased": false
+  },
+  {
+    "id": "goldie-dragons-of-light",
+    "name": "Goldie",
+    "group": "Dragons of Light",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Male Sand Dragon",
+    "deceased": false
+  },
+  {
+    "id": "sienna-dragons-of-light",
+    "name": "Sienna",
+    "group": "Dragons of Light",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Male Sand Dragon",
+    "deceased": true
+  },
+  {
+    "id": "crimson-dragon-dragons-of-darkness",
+    "name": "Crimson Dragon",
+    "group": "Dragons of Darkness",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "A deep blood red color",
+    "deceased": false
+  },
+  {
+    "id": "moss-dragon-dragons-of-darkness",
+    "name": "Moss Dragon",
+    "group": "Dragons of Darkness",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "A dark deep green color",
+    "deceased": false
+  },
+  {
+    "id": "cobalt-dragon-dragons-of-darkness",
+    "name": "Cobalt Dragon",
+    "group": "Dragons of Darkness",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "A deep blue color",
+    "deceased": false
+  },
+  {
+    "id": "violet-dragon-dragons-of-darkness",
+    "name": "Violet Dragon",
+    "group": "Dragons of Darkness",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "A deep bluish-purple color",
+    "deceased": false
+  },
+  {
+    "id": "ebony-dragon-dragons-of-darkness",
+    "name": "Ebony Dragon",
+    "group": "Dragons of Darkness",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Deepest black",
+    "deceased": false
+  },
+  {
+    "id": "areox-dragons-of-darkness",
+    "name": "Areox",
+    "group": "Dragons of Darkness",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": "Male elder Cobalt Dragon",
+    "deceased": true
+  },
+  {
+    "id": "ember-dragons-of-darkness",
+    "name": "Ember",
+    "group": "Dragons of Darkness",
+    "role": "Dragon",
+    "race": "Dragon",
+    "description": ": male adult Crimson Dragon",
+    "deceased": true
+  },
+  {
+    "id": "arachnala-evil-diety",
+    "name": "Arachnala",
+    "group": "Evil Diety",
+    "role": "Priest & Faith",
+    "race": "Fey",
+    "description": "Mistress of Spiders, Arachne's daughter; worshiped by Sidhe",
+    "deceased": false
+  },
+  {
+    "id": "aramina-alterin-alterin",
+    "name": "Aramina Alterin",
+    "group": "Alterin",
+    "role": "Notable Figure",
+    "description": "Infiltrator",
+    "deceased": true
+  },
+  {
+    "id": "beatrix-alterin-alterin",
+    "name": "Beatrix Alterin",
+    "group": "Alterin",
+    "role": "Notable Figure",
+    "description": "Infiltrator",
+    "deceased": true
+  },
+  {
+    "id": "azaria-alterin-alterin",
+    "name": "Azaria Alterin",
+    "group": "Alterin",
+    "role": "Priest & Faith",
+    "description": "Matriarch",
+    "deceased": false
+  },
+  {
+    "id": "terrala-alterin-alterin",
+    "name": "Terrala Alterin",
+    "group": "Alterin",
+    "role": "Family & Kin",
+    "description": "First Daughter",
+    "deceased": false
+  },
+  {
+    "id": "jelina-alterin-alterin",
+    "name": "Jelina Alterin",
+    "group": "Alterin",
+    "role": "Family & Kin",
+    "description": "Daughter of Beatrix Alterin",
+    "deceased": true
+  },
+  {
+    "id": "kel-alterin-alterin",
+    "name": "Kel Alterin",
+    "group": "Alterin",
+    "role": "Rogue & Shadow",
+    "description": "Assassin",
+    "deceased": true
+  },
+  {
+    "id": "kasindra-alterin-alterin",
+    "name": "Kasindra Alterin",
+    "group": "Alterin",
+    "role": "Royalty & Nobility",
+    "description": "Liaison to Lord Eulalion",
+    "deceased": false
+  },
+  {
+    "id": "sirlia-alterin",
+    "name": "Sirlia",
+    "group": "Alterin",
+    "role": "Priest & Faith",
+    "description": "Fourth Daughter to the Alterin Matriarch",
+    "deceased": false
+  },
+  {
+    "id": "raylisha-fliskaya-fliskaya",
+    "name": "Raylisha Fliskaya",
+    "group": "Fliskaya",
+    "role": "Priest & Faith",
+    "description": "Matriarch",
+    "deceased": false
+  },
+  {
+    "id": "dellith-fliskaya-fliskaya",
+    "name": "Dellith Fliskaya",
+    "group": "Fliskaya",
+    "role": "Family & Kin",
+    "description": "Second Daughter, third in command of family",
+    "deceased": false
+  },
+  {
+    "id": "protos-fliskaya-fliskaya",
+    "name": "Protos Fliskaya",
+    "group": "Fliskaya",
+    "role": "Mage & Magic",
+    "description": "Wizard and spy",
+    "deceased": false
+  },
+  {
+    "id": "heliona-fliskaya",
+    "name": "Heliona",
+    "group": "Fliskaya",
+    "role": "Family & Kin",
+    "description": "Fourth Daughter",
+    "deceased": false
+  },
+  {
+    "id": "nolanda-talurek-talurek",
+    "name": "Nolanda TalUrek",
+    "group": "TalUrek",
+    "role": "Family & Kin",
+    "description": "First daughter of",
+    "deceased": false
+  },
+  {
+    "id": "wanscorell-talurek",
+    "name": "Wanscorell",
+    "group": "TalUrek",
+    "role": "Priest & Faith",
+    "description": "Patriarch",
+    "deceased": false
+  },
+  {
+    "id": "yalla-talurek",
+    "name": "Yalla",
+    "group": "TalUrek",
+    "role": "Priest & Faith",
+    "description": "Third Daughter of Matriarch Habthil of the TalUreks,”",
+    "deceased": false
+  },
+  {
+    "id": "felicity-talurek",
+    "name": "Felicity",
+    "group": "TalUrek",
+    "role": "Rogue & Shadow",
+    "description": "Spy in Mardalla",
+    "deceased": false
+  },
+  {
+    "id": "vivianca-kratonaeia",
+    "name": "Vivianca",
+    "group": "Kratonaeia",
+    "role": "Military & Guard",
+    "description": "Senior General",
+    "deceased": false
+  },
+  {
+    "id": "tesserae-kratonaeia",
+    "name": "Tesserae",
+    "group": "Kratonaeia",
+    "role": "Military & Guard",
+    "description": "Colonel, Kratonaeia",
+    "deceased": false
+  },
+  {
+    "id": "aedath-kratonaeia",
+    "name": "Aedath",
+    "group": "Kratonaeia",
+    "role": "Military & Guard",
+    "description": "Colonel and husband to Vivianca Kratonaeia",
+    "deceased": false
+  },
+  {
+    "id": "derkkat-other-not-nice-people",
+    "name": "Derkkat",
+    "group": "Other Not Nice People",
+    "role": "Leadership & Council",
+    "description": "Bandit Leader",
+    "deceased": true
+  },
+  {
+    "id": "harold-other-not-nice-people",
+    "name": "Harold",
+    "group": "Other Not Nice People",
+    "role": "Rogue & Shadow",
+    "description": "Horse trader and thief in Little Deeping",
+    "deceased": false
+  },
+  {
+    "id": "hendric-other-not-nice-people",
+    "name": "Hendric",
+    "group": "Other Not Nice People",
+    "role": "Mage & Magic",
+    "description": "Senior Eradicator, Order of Magical Canon",
+    "deceased": false
+  },
+  {
+    "id": "leech-other-not-nice-people",
+    "name": "Leech",
+    "group": "Other Not Nice People",
+    "role": "Mage & Magic",
+    "description": "Wizard",
+    "deceased": true
+  },
+  {
+    "id": "michael-other-not-nice-people",
+    "name": "Michael",
+    "group": "Other Not Nice People",
+    "role": "Notable Figure",
+    "race": "Human",
+    "description": "Senior Human, Korien",
+    "deceased": false
+  },
+  {
+    "id": "sickle-other-not-nice-people",
+    "name": "Sickle",
+    "group": "Other Not Nice People",
+    "role": "Mage & Magic",
+    "description": "Thief and wizard",
+    "deceased": false
+  },
+  {
+    "id": "uller-frost-other-not-nice-people",
+    "name": "Uller Frost",
+    "group": "Other Not Nice People",
+    "role": "Rogue & Shadow",
+    "description": "Assassin",
+    "deceased": false
+  },
+  {
+    "id": "viper-other-not-nice-people",
+    "name": "Viper",
+    "group": "Other Not Nice People",
+    "role": "Ranger & Scout",
+    "description": "Thief and ranger",
+    "deceased": true
+  },
+  {
+    "id": "zards-other-not-nice-people",
+    "name": "Zards",
+    "group": "Other Not Nice People",
+    "role": "Notable Figure",
+    "description": "Evil lizardlike people, followers of Set",
+    "deceased": false
+  },
+  {
+    "id": "kaebarkyns-growlings-other-not-nice-people",
+    "name": "Kaebarkyns/Growlings",
+    "group": "Other Not Nice People",
+    "role": "Beast & Creature",
+    "race": "Human",
+    "description": "Doglike creatures, Human-sized or bigger",
+    "deceased": false
+  }
+]

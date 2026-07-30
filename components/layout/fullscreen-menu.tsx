@@ -12,10 +12,10 @@ interface FullscreenMenuProps {
 }
 
 const links = [
-  { label: 'Home', href: '#' },
-  { label: 'About', href: '#about' },
-  { label: 'Books', href: '#series' },
-  { label: 'Characters', href: '#explore' },
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  { label: 'Books', href: '#books' },
+  { label: 'Characters', href: '/characters' },
   { label: 'Contact', href: '#footer' },
 ]
 
@@ -71,6 +71,7 @@ export default function FullscreenMenu({ isOpen, onClose }: FullscreenMenuProps)
           role="dialog"
           aria-modal="true"
           aria-label="Site navigation"
+          data-lenis-prevent
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}

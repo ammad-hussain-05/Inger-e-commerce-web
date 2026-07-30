@@ -5,13 +5,15 @@ import { useEffect, useRef, useState } from 'react'
 import { ArrowRight, BookOpen, Cog, ExternalLink, Feather } from 'lucide-react'
 import { FaAmazon } from 'react-icons/fa'
 import { SiAudible } from 'react-icons/si'
+import GenreBadge from '@/components/ui/genre-badge'
+import { books } from '@/lib/books'
 
 const ICON_STROKE_WIDTH = 1.5
 
 const stats = [
-  { label: 'Pages', value: '412', Icon: BookOpen },
+  { label: 'Pages', value: books.latest.pages, Icon: BookOpen },
   { label: 'Series', value: 'Book three', Icon: Cog },
-  { label: 'Genre', value: 'Steampunk', Icon: Feather },
+  { label: 'Genre', value: books.latest.genre, Icon: Feather },
 ]
 
 const retailers = [
@@ -79,6 +81,7 @@ export default function LatestRelease() {
           >
             <div>
               <p className="label mb-3 text-gold/70">Available Now</p>
+              <GenreBadge genre={books.latest.genre} accent="gold" className="mb-4" />
               <h2 className="h2 text-balance mb-6">
                 Calling The Lost Ones Homes
               </h2>
