@@ -18,9 +18,6 @@ const socialLinks = [
 ]
 
 export default function Footer() {
-  const [email, setEmail] = useState('')
-  const [isSubmitted, setIsSubmitted] = useState(false)
-  const [isLoading, setIsLoading] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
   const footerRef = useRef<HTMLDivElement>(null)
 
@@ -36,21 +33,6 @@ export default function Footer() {
 
     return () => observer.disconnect()
   }, [])
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    if (!email) return
-
-    setIsLoading(true)
-    // Simulate submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-    setIsSubmitted(true)
-    setEmail('')
-    setIsLoading(false)
-
-    // Reset after 3 seconds
-    setTimeout(() => setIsSubmitted(false), 3000)
-  }
 
   const currentYear = new Date().getFullYear()
 
@@ -91,47 +73,6 @@ export default function Footer() {
                 className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
               />
             </a>
-          </div>
-        </div>
-
-        {/* Newsletter */}
-        <div
-          className={`mx-auto mb-20 max-w-2xl transition-all delay-150 duration-700 md:mb-24 ${
-            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
-          }`}
-        >
-          <div className="space-y-8 text-center">
-            <div className="space-y-4">
-              <h3 className="h3">Stay Connected</h3>
-              <p className="body text-cream/70">
-                Be the first to know about new releases, exclusive content, and behind-the-scenes updates.
-              </p>
-            </div>
-
-            {isSubmitted ? (
-              <div className="animate-fade-in space-y-2 rounded-sm border border-gold/50 bg-gold/10 p-6">
-                <p className="label text-gold">Success!</p>
-                <p className="text-cream">Thank you for joining. Check your email for confirmation.</p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:flex-row">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="your@email.com"
-                  required
-                  className="flex-1 rounded-sm border border-gold/30 bg-black/40 px-6 py-3.5 font-sans text-sm text-cream placeholder-cream/40 backdrop-blur-sm transition-all duration-300 focus:border-gold/70 focus:bg-black/60 focus:outline-none"
-                />
-                <button
-                  type="submit"
-                  disabled={isLoading}
-                  className="btn-primary whitespace-nowrap disabled:opacity-50"
-                >
-                  {isLoading ? 'Joining...' : 'Join List'}
-                </button>
-              </form>
-            )}
           </div>
         </div>
 

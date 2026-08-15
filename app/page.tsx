@@ -11,7 +11,8 @@ import { books } from '@/lib/books'
 import About from '@/components/sections/about'
 import Testimonials from '@/components/sections/testimonials'
 import CharacterQuotes from '@/components/sections/character-quotes'
-import Blog from '@/components/sections/blog'
+import MapsCharacters from '@/components/sections/maps-characters'
+import Newsletter from '@/components/sections/newsletter'
 import Footer from '@/components/sections/footer'
 import StickyHeader from '@/components/layout/sticky-header'
 
@@ -79,7 +80,8 @@ export default function Home() {
         <About />
         <Testimonials />
         <CharacterQuotes />
-        <Blog />
+        <MapsCharacters />
+        <Newsletter />
         <Footer />
       </main>
     </div>

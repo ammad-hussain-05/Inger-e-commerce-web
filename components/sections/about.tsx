@@ -60,10 +60,10 @@ export default function About() {
                 <div className="absolute -inset-1 rounded-lg bg-gradient-to-br from-gold/40 via-gold/15 to-transparent" />
 
                 {/* Image */}
-                <div className="relative aspect-square overflow-hidden rounded-lg border border-gold/40 shadow-[0_25px_60px_-20px_rgba(0,0,0,0.85)] transition-all duration-700 group-hover:border-gold/70 group-hover:shadow-[0_30px_80px_-15px_rgba(201,169,97,0.3)]">
+                <div className="relative aspect-[9/16] overflow-hidden rounded-lg border border-gold/40 shadow-[0_25px_60px_-20px_rgba(0,0,0,0.85)] transition-all duration-700 group-hover:border-gold/70 group-hover:shadow-[0_30px_80px_-15px_rgba(201,169,97,0.3)]">
                   <Image
-                    src="/author-portrait.png"
-                    alt="Author Portrait"
+                    src="/author-em-kari.png"
+                    alt="Inger &amp; Alex Moore, Authors"
                     fill
                     className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                   />
@@ -98,15 +98,15 @@ export default function About() {
 
             <div className="space-y-6">
               <p className="body text-cream/80">
-                With a passion for intricate worldbuilding and morally complex characters, I create immersive narratives that blur the lines between past and future, science and magic. My work explores themes of power, rebellion, identity, and transformation through the lens of speculative fiction.
+                Inger K. Moore (Johnson) was born in Hawaii, went to high school in South Carolina, and is back again living in San Diego, California with her husband Alex and their cats Vidar and Sifr. Inger&rsquo;s an avid reader of mysteries, science fiction and fantasy. She grew up reading Anne McCaffery, Alan Dean Foster, Andre Norton, and Frank Herbert, with a sprinkling of James Clavell, Dick Francis, Alistair MacLean, and Tom Clancy. She now also reads David Weber, J. D. Robb, Leann Sweeney, and Sofie Kelly/Sofie Ryan.
               </p>
 
               <p className="body text-cream/80">
-                Every story begins with a question: What if the world you knew was built on a lie? Through steampunk aesthetics and urban fantasy realms, I invite readers to challenge assumptions and discover the extraordinary hidden within the mechanical and mundane.
+                Alex J. Moore, co-author, likes to read, play video games, watch movies, and take care of the house landscaping. Alex&rsquo;s favorite author of course is J.R.R. Tolkien, but he has a diverse library as well, including David Weber, Dennis McKiernan, Edgar Rice Burroughs, James Clavell, Herman Wouk, Jeff Shaara, and Jules Verne.
               </p>
 
               <p className="body text-cream/80">
-                When not writing, I&apos;m inspired by history, architecture, music, and the endless possibilities of human resilience and creativity.
+                Right now Inger and Alex are currently working on book four of the Maldonere Chronicles.
               </p>
             </div>
 
@@ -122,9 +122,9 @@ export default function About() {
               </div>
             </div>
 
-            <button className="btn-primary w-full sm:w-auto sm:px-12">
+            <a href="#newsletter" className="btn-primary block w-full text-center sm:inline-block sm:w-auto sm:px-12">
               Join Mailing List
-            </button>
+            </a>
           </div>
         </div>
       </div>

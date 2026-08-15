@@ -5,49 +5,28 @@ import { Quote } from 'lucide-react'
 
 type Accent = 'gold' | 'forest-green' | 'royal-purple'
 
-interface CharacterQuote {
+interface FamilyMotto {
   id: number
-  quote: string
-  character: string
-  role: string
-  book?: string
+  family: string
+  motto: string
   accent: Accent
 }
 
-/** Placeholder data — add new entries here as the client sends more quotes. */
-const characterQuotes: CharacterQuote[] = [
-  {
-    id: 1,
-    quote: "Family isn't the blood you're born from — it's the ground you choose to defend together.",
-    character: 'Emerald Star',
-    role: 'Elven Ranger',
-    book: 'Two Elves and a Halfling',
-    accent: 'forest-green',
-  },
-  {
-    id: 2,
-    quote: 'Magic bends to will, and will bends to no one.',
-    character: 'Thistle',
-    role: 'Wild Mage',
-    book: 'Rallying Cry',
-    accent: 'royal-purple',
-  },
-  {
-    id: 3,
-    quote: "A Halfling's pockets are small, but a Halfling's loyalty has no bottom.",
-    character: 'Myst Roottapper',
-    role: 'Halfling Rogue',
-    book: 'Two Elves and a Halfling',
-    accent: 'gold',
-  },
-  {
-    id: 4,
-    quote: 'Every stronghold falls in time. What we build in each other does not.',
-    character: 'Lord Cornelius',
-    role: 'Duke of the Southern Reach',
-    book: 'Rallying Cry',
-    accent: 'gold',
-  },
+/** Source of truth: /public/changes/Mottos They Live By.docx — exact family order and wording. */
+const familyMottos: FamilyMotto[] = [
+  { id: 1, family: 'Star Family', motto: 'Honor, Loyalty, Eternity', accent: 'gold' },
+  { id: 2, family: 'Thistle Family', motto: 'No Kill Like Overkill', accent: 'forest-green' },
+  { id: 3, family: 'Roottapper Family', motto: 'Home and Hearth Weather All Storms', accent: 'royal-purple' },
+  { id: 4, family: 'Darinae Family', motto: 'Strength of Will is All', accent: 'gold' },
+  { id: 5, family: 'Carinae Family', motto: 'We are Nature Unbound', accent: 'forest-green' },
+  { id: 6, family: 'Almeric Family', motto: "The Warrior's Greatest Weapon is Diplomacy", accent: 'royal-purple' },
+  { id: 7, family: 'Halamaken Family', motto: 'We are the Songs, We are the Story', accent: 'gold' },
+  { id: 8, family: 'Lakotani Family', motto: 'One Arrow is Good, Twenty-four is Better', accent: 'forest-green' },
+  { id: 9, family: 'Loreleia Family', motto: 'We are the Shield of our People', accent: 'royal-purple' },
+  { id: 10, family: 'Rowaen Family', motto: 'We Protect All of Nature', accent: 'gold' },
+  { id: 11, family: 'Shabyn Family', motto: 'We are Stronger than the Waves', accent: 'forest-green' },
+  { id: 12, family: 'Solerin Family', motto: 'We are the Light of Nature', accent: 'royal-purple' },
+  { id: 13, family: 'Telerikke Family', motto: 'The Earth is our Treasure to Guard', accent: 'gold' },
 ]
 
 const accentStyles: Record<
@@ -121,13 +100,13 @@ export default function CharacterQuotes() {
           </div>
           <h2 className="h2 text-balance">Mottos They Live By</h2>
           <p className="body mt-6 text-cream/60">
-            Quotes and family mottos straight from the characters who carry these stories forward.
+            The words each family carries into every generation, every battle, every home.
           </p>
         </div>
 
-        {/* Quote grid */}
-        <div className="grid gap-8 sm:grid-cols-2 lg:gap-10">
-          {characterQuotes.map((entry, index) => {
+        {/* Family motto grid */}
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-10">
+          {familyMottos.map((entry, index) => {
             const accent = accentStyles[entry.accent]
 
             return (
@@ -137,7 +116,7 @@ export default function CharacterQuotes() {
                   isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                 }`}
                 style={{
-                  transitionDelay: isVisible ? `${index * 120}ms` : '0ms',
+                  transitionDelay: isVisible ? `${index * 80}ms` : '0ms',
                 }}
               >
                 <div
@@ -149,15 +128,11 @@ export default function CharacterQuotes() {
                   />
 
                   <p className="font-serif text-xl text-balance leading-relaxed text-cream">
-                    &ldquo;{entry.quote}&rdquo;
+                    &ldquo;{entry.motto}&rdquo;
                   </p>
 
                   <div className="mt-8 border-t border-cream/10 pt-6">
-                    <p className={`font-serif text-lg ${accent.text}`}>{entry.character}</p>
-                    <p className="label mt-1 text-cream/40">{entry.role}</p>
-                    {entry.book && (
-                      <p className="label mt-3 text-[10px] tracking-widest text-cream/30">{entry.book}</p>
-                    )}
+                    <p className={`label ${accent.text}`}>{entry.family}</p>
                   </div>
                 </div>
               </article>
