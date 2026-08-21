@@ -65,7 +65,11 @@ export default function BlogArticle({ post, reversed = false }: BlogArticleProps
 
         {/* Content */}
         <div className={`md:col-span-5 ${reversed ? 'md:order-1' : 'md:order-2'}`}>
-          <div className="flex items-center gap-3">
+          <p className="font-sans text-[11px] font-medium tracking-[0.2em] text-cream/40 uppercase">
+            {post.seriesLabel}
+          </p>
+
+          <div className="mt-3 flex items-center gap-3">
             <div className="h-1.5 w-1.5 rotate-45 bg-gold/70" />
             <p className="label text-gold">{post.category}</p>
           </div>

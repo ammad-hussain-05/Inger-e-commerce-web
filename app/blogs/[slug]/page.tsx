@@ -11,10 +11,6 @@ import Newsletter from '@/components/sections/newsletter'
 import AnimatedHeading from '@/components/blogs/animated-heading'
 import { blogPosts, getBlogPost } from '@/lib/blogs'
 
-/** Which body paragraph (0-indexed) is presented as a highlighted pull quote
- *  instead of a plain paragraph — same copy, elevated typographic treatment. */
-const PULL_QUOTE_INDEX = 1
-
 export default function BlogArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params)
   const post = getBlogPost(slug)
@@ -84,6 +80,10 @@ export default function BlogArticlePage({ params }: { params: Promise<{ slug: st
               All Articles
             </Link>
 
+            <p className="text-shadow-cinematic mb-3 font-sans text-[11px] font-medium tracking-[0.25em] text-cream/45 uppercase">
+              {post.seriesLabel}
+            </p>
+
             <div className="mb-5 flex items-center gap-3">
               <div className="h-1.5 w-1.5 rotate-45 bg-gold/70" />
               <p className="label text-shadow-cinematic text-gold">{post.category}</p>
@@ -136,35 +136,67 @@ export default function BlogArticlePage({ params }: { params: Promise<{ slug: st
 
             <div className="gold-line my-14 md:my-16" />
 
-            {/* Body copy — same paragraphs, elevated rhythm; one paragraph is
-                presented as a highlighted pull quote rather than plain text. */}
+            {/* Body copy — same reveal rhythm as before, extended to cover
+                section headings and lists alongside plain paragraphs; one
+                paragraph per article is presented as a highlighted pull
+                quote rather than plain text. */}
             <div className="space-y-9 md:space-y-10">
-              {post.body.map((paragraph, i) =>
-                i === PULL_QUOTE_INDEX ? (
-                  <blockquote
-                    key={i}
-                    className={`relative border-l-2 border-gold/50 py-1 pl-7 transition-all duration-700 ease-out md:pl-9 ${
-                      isBodyVisible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
-                    }`}
-                    style={revealStyle(i + 1)}
-                  >
-                    <Quote strokeWidth={1.5} className="mb-3 h-6 w-6 text-gold/40" />
-                    <p className="font-serif text-xl leading-[1.7] text-cream italic text-balance md:text-2xl">
-                      {paragraph}
-                    </p>
-                  </blockquote>
-                ) : (
+              {post.body.map((block, i) => {
+                const revealClasses = `transition-all duration-700 ease-out ${
+                  isBodyVisible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
+                }`
+
+                if (block.type === 'heading') {
+                  return (
+                    <h2
+                      key={i}
+                      className={`${revealClasses} flex items-center gap-3 pt-2 font-serif text-2xl text-cream md:text-3xl`}
+                      style={revealStyle(i + 1)}
+                    >
+                      <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 rotate-45 bg-gold/60" />
+                      {block.text}
+                    </h2>
+                  )
+                }
+
+                if (block.type === 'list') {
+                  return (
+                    <ul key={i} className={`${revealClasses} space-y-4`} style={revealStyle(i + 1)}>
+                      {block.items.map((item, j) => (
+                        <li key={j} className="flex gap-4 font-sans text-lg leading-[1.9] text-cream/70">
+                          <span aria-hidden="true" className="mt-3 h-1.5 w-1.5 shrink-0 rotate-45 bg-gold/50" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )
+                }
+
+                if (block.pullQuote) {
+                  return (
+                    <blockquote
+                      key={i}
+                      className={`${revealClasses} relative border-l-2 border-gold/50 py-1 pl-7 md:pl-9`}
+                      style={revealStyle(i + 1)}
+                    >
+                      <Quote strokeWidth={1.5} className="mb-3 h-6 w-6 text-gold/40" />
+                      <p className="font-serif text-xl leading-[1.7] text-cream italic text-balance md:text-2xl">
+                        {block.text}
+                      </p>
+                    </blockquote>
+                  )
+                }
+
+                return (
                   <p
                     key={i}
-                    className={`font-sans text-lg leading-[1.9] text-cream/70 transition-all duration-700 ease-out ${
-                      isBodyVisible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
-                    }`}
+                    className={`${revealClasses} font-sans text-lg leading-[1.9] text-cream/70`}
                     style={revealStyle(i + 1)}
                   >
-                    {paragraph}
+                    {block.text}
                   </p>
                 )
-              )}
+              })}
             </div>
 
             <div className="mt-20 border-t border-gold/15 pt-10 md:mt-24">
