@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import Link from 'next/link'
 import { ArrowUpRight, Mail, Phone } from 'lucide-react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaXTwitter } from 'react-icons/fa6'
 
@@ -15,6 +16,13 @@ const socialLinks = [
   { label: 'Facebook', href: '#', Icon: FaFacebook },
   { label: 'LinkedIn', href: '#', Icon: FaLinkedin },
   { label: 'X / Twitter', href: '#', Icon: FaXTwitter },
+]
+
+const footerNavLinks = [
+  { label: 'Home', href: '/', scroll: true },
+  { label: 'Books', href: '/#books', scroll: false },
+  { label: 'Blogs', href: '/blogs', scroll: true },
+  { label: 'Characters', href: '/characters', scroll: true },
 ]
 
 export default function Footer() {
@@ -37,7 +45,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer ref={footerRef} className="relative isolate overflow-hidden bg-black pt-24 pb-16 md:pt-32 md:pb-24">
+    <footer id="footer" ref={footerRef} className="relative isolate overflow-hidden bg-black pt-24 pb-16 md:pt-32 md:pb-24">
       {/* Background video layer (lowest) */}
       {BACKGROUND_VIDEO_SRC && (
         <video
@@ -78,12 +86,28 @@ export default function Footer() {
 
         <div className="gold-line mb-16" />
 
-        {/* Contact / Social */}
+        {/* Contact / Explore / Social */}
         <div
-          className={`mb-12 grid gap-10 transition-all delay-300 duration-700 sm:grid-cols-2 ${
+          className={`mb-12 grid gap-10 transition-all delay-300 duration-700 sm:grid-cols-2 lg:grid-cols-3 ${
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
           }`}
         >
+          <div className="space-y-3">
+            <p className="label text-xs text-gold/60">Explore</p>
+            <nav aria-label="Footer" className="flex flex-col gap-2">
+              {footerNavLinks.map((link) => (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  scroll={link.scroll}
+                  className="w-fit text-sm text-cream/80 transition-colors duration-300 hover:text-gold"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+
           <div className="space-y-3">
             <p className="label text-xs text-gold/60">Business Enquiry</p>
             <a

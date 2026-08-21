@@ -11,12 +11,17 @@ interface FullscreenMenuProps {
   onClose: () => void
 }
 
+// Only Blogs and Characters are standalone pages — everything else is an
+// in-page anchor on the homepage, smoothly scrolled to via SmoothScrollProvider
+// (which also handles the cross-page case: e.g. clicking "About" from /blogs
+// first navigates home, then scrolls to the #about section once it mounts).
 const links = [
-  { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
-  { label: 'Books', href: '#books' },
-  { label: 'Characters', href: '/characters' },
-  { label: 'Contact', href: '#footer' },
+  { label: 'Home', href: '/', scroll: true },
+  { label: 'About', href: '/#about', scroll: false },
+  { label: 'Books', href: '/#books', scroll: false },
+  { label: 'Blogs', href: '/blogs', scroll: true },
+  { label: 'Characters', href: '/characters', scroll: true },
+  { label: 'Contact', href: '/#footer', scroll: false },
 ]
 
 export default function FullscreenMenu({ isOpen, onClose }: FullscreenMenuProps) {
@@ -118,6 +123,7 @@ export default function FullscreenMenu({ isOpen, onClose }: FullscreenMenuProps)
                     <motion.li key={link.label} variants={itemVariants}>
                       <Link
                         href={link.href}
+                        scroll={link.scroll}
                         onClick={onClose}
                         className="group inline-block font-serif text-5xl leading-tight text-cream transition-colors duration-300 hover:text-gold sm:text-6xl lg:text-7xl"
                       >
@@ -129,7 +135,7 @@ export default function FullscreenMenu({ isOpen, onClose }: FullscreenMenuProps)
               </motion.nav>
 
               <motion.div variants={itemVariants} initial="hidden" animate="visible" exit="hidden" className="mt-12 md:mt-16">
-                <Link href="#footer" onClick={onClose} className="btn-primary inline-block">
+                <Link href="/#footer" scroll={false} onClick={onClose} className="btn-primary inline-block">
                   Join List
                 </Link>
               </motion.div>

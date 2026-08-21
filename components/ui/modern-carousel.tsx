@@ -121,7 +121,7 @@ export default function ModernCarousel({ heading, items, speed = 32 }: ModernCar
   }, [count, speed])
 
   return (
-    <section className="relative overflow-hidden bg-black bg-[url('/carousel-background.png')] bg-cover bg-center bg-no-repeat px-6 py-24 md:px-8 md:py-32">
+    <section id="books" className="relative overflow-hidden bg-black bg-[url('/carousel-background.png')] bg-cover bg-center bg-no-repeat px-6 py-24 md:px-8 md:py-32">
       <div className="pointer-events-none absolute inset-0 bg-black/45" />
 
       <div className="relative z-10 mx-auto mb-14 max-w-3xl text-center md:mb-20">
