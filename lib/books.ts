@@ -21,7 +21,7 @@ export interface BookDetails {
 export const books: Record<BookId, BookDetails> = {
   acclaimed: {
     genre: 'Epic Fantasy',
-    pages: 'XXX',
+    pages: '387',
     title: 'Two Elves and a Halfling Walk Into a Bar',
     series: 'Book One',
     tagline: 'Award Winning',

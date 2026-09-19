@@ -35,19 +35,19 @@ export default function Home() {
         <Hero />
         <AcclaimedRelease />
         <Marquee
-          words={['Immersive', 'Cinematic', 'Steampunk', 'Fantasy', 'Adventure', 'Epic Storytelling']}
+          words={['Immersive', 'Cinematic', 'Fantasy', 'Adventure', 'Epic Storytelling']}
           direction="left"
           speed={30}
         />
         <FeaturedRelease />
         <Marquee
-          words={['Immersive', 'Cinematic', 'Steampunk', 'Fantasy', 'Adventure', 'Epic Storytelling']}
+          words={['Immersive', 'Cinematic', 'Fantasy', 'Adventure', 'Epic Storytelling']}
           direction="right"
           speed={30}
         />
         <LatestRelease />
         <Marquee
-          words={['Immersive', 'Cinematic', 'Steampunk', 'Fantasy', 'Adventure', 'Epic Storytelling']}
+          words={['Immersive', 'Cinematic', 'Fantasy', 'Adventure', 'Epic Storytelling']}
           direction="left"
           speed={30}
         />

@@ -15,7 +15,7 @@ function MarqueeGroup({ words, ariaHidden }: { words: string[]; ariaHidden?: boo
         return (
           <span
             key={i}
-            className="px-2.5 font-sans text-[clamp(0.75rem,1.6vw,1.125rem)] leading-none font-black tracking-[0.08em] whitespace-nowrap uppercase sm:px-3 md:px-4"
+            className="px-2 font-sans text-[clamp(0.65rem,1.2vw,0.875rem)] leading-none font-black tracking-[0.08em] whitespace-nowrap uppercase sm:px-2.5 md:px-3"
             style={
               outline
                 ? {
@@ -37,7 +37,7 @@ function MarqueeGroup({ words, ariaHidden }: { words: string[]; ariaHidden?: boo
 export default function Marquee({ words, direction = 'left', speed = 30 }: MarqueeProps) {
   return (
     <div
-      className="relative flex h-12 w-full items-center overflow-hidden border-y border-cream/10 bg-[#1d1d1d] sm:h-14 md:h-16"
+      className="relative flex h-9 w-full items-center overflow-hidden border-y border-cream/10 bg-[#1d1d1d] sm:h-10 md:h-12"
       style={
         {
           '--marquee-duration': `${speed}s`,
