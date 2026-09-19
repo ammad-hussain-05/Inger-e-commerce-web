@@ -45,8 +45,9 @@ export default function BlogsPage() {
           </div>
         </section>
 
-        {/* Article list */}
-        <section className="relative px-6 pb-28 md:px-8 md:pb-36">
+        {/* Article list — grouped by book, each section manages its own
+            full-bleed hero background, so no horizontal padding here. */}
+        <section className="relative">
           <BlogsList />
         </section>
 

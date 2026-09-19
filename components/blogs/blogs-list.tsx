@@ -1,20 +1,16 @@
-import { blogPosts } from '@/lib/blogs'
-import BlogArticle from './blog-article'
+import type { BookId } from '@/lib/books'
+import { getBlogPostsByBook } from '@/lib/blogs'
+import BookBlogSection from './book-blog-section'
+
+/** Chronological book order — matches the sequence used everywhere else
+ *  on the site (homepage sections, the /books showcase, the carousel). */
+const BOOK_ORDER: BookId[] = ['acclaimed', 'featured', 'latest']
 
 export default function BlogsList() {
   return (
-    <div className="mx-auto max-w-6xl">
-      {blogPosts.map((post, index) => (
-        <div key={post.slug}>
-          <BlogArticle post={post} reversed={index % 2 === 1} />
-          {index < blogPosts.length - 1 && (
-            <div className="my-16 flex items-center justify-center gap-4 md:my-24">
-              <div className="h-px flex-1 bg-gradient-to-r from-transparent to-gold/25" />
-              <div className="h-1.5 w-1.5 rotate-45 bg-gold/40" />
-              <div className="h-px flex-1 bg-gradient-to-l from-transparent to-gold/25" />
-            </div>
-          )}
-        </div>
+    <div>
+      {BOOK_ORDER.map((bookId) => (
+        <BookBlogSection key={bookId} bookId={bookId} posts={getBlogPostsByBook(bookId)} />
       ))}
     </div>
   )
