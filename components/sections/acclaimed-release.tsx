@@ -2,9 +2,8 @@
 
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
-import { ArrowRight, BookOpen, Cog, ExternalLink, Feather } from 'lucide-react'
+import { ArrowRight, BookOpen, Cog, Feather } from 'lucide-react'
 import { FaAmazon } from 'react-icons/fa'
-import { SiAudible } from 'react-icons/si'
 import GenreBadge from '@/components/ui/genre-badge'
 import { books } from '@/lib/books'
 
@@ -16,12 +15,7 @@ const stats = [
   { label: 'Genre', value: books.acclaimed.genre, Icon: Feather },
 ]
 
-const retailers = [
-  { label: 'Amazon', Icon: FaAmazon },
-  { label: 'Barnes & Noble', Icon: ExternalLink },
-  { label: 'Bookshop', Icon: ExternalLink },
-  { label: 'Audible', Icon: SiAudible },
-]
+const retailers = [{ label: 'Amazon', Icon: FaAmazon }]
 
 export default function AcclaimedRelease() {
   const [isVisible, setIsVisible] = useState(false)
@@ -50,7 +44,6 @@ export default function AcclaimedRelease() {
 
       <div className="relative z-10 mx-auto max-w-6xl">
         <div className="mb-12 space-y-4">
-          <p className="label text-forest-green">Award Winning</p>
           <div className="gold-accent-line bg-forest-green" />
         </div>
 
@@ -79,7 +72,6 @@ export default function AcclaimedRelease() {
             }`}
           >
             <div>
-              <p className="label mb-3 text-forest-green/70">Critically Acclaimed</p>
               <GenreBadge genre={books.acclaimed.genre} accent="forest-green" className="mb-4" />
               <h2 className="h2 text-balance mb-6">
                 Two Elves And A Halfling
@@ -116,21 +108,18 @@ The Elves, Ranger Emerald Star and the Wild Mage Thistle—each the last of thei
             </div>
 
             <div className="flex flex-col gap-4 sm:flex-row">
-              <button className="group inline-flex flex-1 items-center justify-center gap-2 bg-forest-green px-6 py-3.5 font-sans text-sm font-medium tracking-widest text-cream uppercase transition-all duration-300 ease-out hover:-translate-y-0.5 hover:bg-forest-green-light hover:shadow-[0_10px_30px_-8px_rgba(26,95,71,0.5)] active:translate-y-0">
+              <a
+                href={books.acclaimed.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex flex-1 items-center justify-center gap-2 bg-forest-green px-6 py-3.5 font-sans text-sm font-medium tracking-widest text-cream uppercase transition-all duration-300 ease-out hover:-translate-y-0.5 hover:bg-forest-green-light hover:shadow-[0_10px_30px_-8px_rgba(26,95,71,0.5)] active:translate-y-0"
+              >
                 Buy Now
                 <ArrowRight
                   strokeWidth={ICON_STROKE_WIDTH}
                   className="h-4 w-4 transition-transform duration-300 ease-out group-hover:translate-x-1"
                 />
-              </button>
-
-              <button className="group inline-flex flex-1 items-center justify-center gap-2 border border-cream/30 bg-black/20 px-6 py-3.5 font-sans text-sm font-medium tracking-widest text-cream uppercase backdrop-blur-sm transition-all duration-300 ease-out hover:border-forest-green hover:bg-forest-green/5 hover:text-forest-green active:scale-[0.99]">
-                Read Sample
-                <ArrowRight
-                  strokeWidth={ICON_STROKE_WIDTH}
-                  className="h-4 w-4 transition-transform duration-300 ease-out group-hover:translate-x-1"
-                />
-              </button>
+              </a>
             </div>
 
             <div className="pt-2">
@@ -139,7 +128,9 @@ The Elves, Ranger Emerald Star and the Wild Mage Thistle—each the last of thei
                 {retailers.map((retailer) => (
                   <a
                     key={retailer.label}
-                    href="#"
+                    href={books.acclaimed.amazonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-sm border border-cream/15 bg-black/25 px-4 py-2 text-xs tracking-wide text-cream backdrop-blur-sm transition-all duration-300 hover:border-forest-green hover:bg-forest-green/5 hover:text-forest-green"
                   >
                     <retailer.Icon className="h-4 w-4 shrink-0" />

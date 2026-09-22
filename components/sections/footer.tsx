@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
-import { ArrowUpRight, Mail, Phone } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaXTwitter } from 'react-icons/fa6'
 
 const ICON_STROKE_WIDTH = 1.5
@@ -88,7 +88,7 @@ export default function Footer() {
 
         {/* Contact / Explore / Social */}
         <div
-          className={`mb-12 grid gap-10 transition-all delay-300 duration-700 sm:grid-cols-2 lg:grid-cols-3 ${
+          className={`mb-12 grid gap-10 transition-all delay-300 duration-700 sm:grid-cols-2 ${
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
           }`}
         >
@@ -106,30 +106,6 @@ export default function Footer() {
                 </Link>
               ))}
             </nav>
-          </div>
-
-          <div className="space-y-3">
-            <p className="label text-xs text-gold/60">Business Enquiry</p>
-            <a
-              href="mailto:hello@inger.com"
-              className="group flex items-center gap-2 text-sm text-cream/80 transition-colors duration-300 hover:text-gold"
-            >
-              <Mail
-                strokeWidth={ICON_STROKE_WIDTH}
-                className="h-3.5 w-3.5 text-gold/50 transition-colors duration-300 group-hover:text-gold"
-              />
-              hello@inger.com
-            </a>
-            <a
-              href="tel:+19824182099"
-              className="group flex items-center gap-2 text-sm text-cream/80 transition-colors duration-300 hover:text-gold"
-            >
-              <Phone
-                strokeWidth={ICON_STROKE_WIDTH}
-                className="h-3.5 w-3.5 text-gold/50 transition-colors duration-300 group-hover:text-gold"
-              />
-              +1 982 418 2099
-            </a>
           </div>
 
           <div className="space-y-3 sm:text-right">

@@ -2,9 +2,8 @@
 
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
-import { ArrowRight, BookOpen, Cog, ExternalLink, Feather } from 'lucide-react'
+import { ArrowRight, BookOpen, Cog, Feather } from 'lucide-react'
 import { FaAmazon } from 'react-icons/fa'
-import { SiAudible } from 'react-icons/si'
 import GenreBadge from '@/components/ui/genre-badge'
 import { books } from '@/lib/books'
 
@@ -16,12 +15,7 @@ const stats = [
   { label: 'Genre', value: books.latest.genre, Icon: Feather },
 ]
 
-const retailers = [
-  { label: 'Amazon', Icon: FaAmazon },
-  { label: 'Barnes & Noble', Icon: ExternalLink },
-  { label: 'Bookshop', Icon: ExternalLink },
-  { label: 'Audible', Icon: SiAudible },
-]
+const retailers = [{ label: 'Amazon', Icon: FaAmazon }]
 
 export default function LatestRelease() {
   const [isVisible, setIsVisible] = useState(false)
@@ -118,21 +112,18 @@ export default function LatestRelease() {
             </div>
 
             <div className="flex flex-col gap-4 sm:flex-row">
-              <button className="group inline-flex flex-1 items-center justify-center gap-2 bg-gold px-6 py-3.5 font-sans text-sm font-medium tracking-widest text-black uppercase transition-all duration-300 ease-out hover:-translate-y-0.5 hover:bg-gold-light hover:shadow-[0_10px_30px_-8px_rgba(201,169,97,0.5)] active:translate-y-0">
-                Pre-Order Now
+              <a
+                href={books.latest.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex flex-1 items-center justify-center gap-2 bg-gold px-6 py-3.5 font-sans text-sm font-medium tracking-widest text-black uppercase transition-all duration-300 ease-out hover:-translate-y-0.5 hover:bg-gold-light hover:shadow-[0_10px_30px_-8px_rgba(201,169,97,0.5)] active:translate-y-0"
+              >
+                Buy Now
                 <ArrowRight
                   strokeWidth={ICON_STROKE_WIDTH}
                   className="h-4 w-4 transition-transform duration-300 ease-out group-hover:translate-x-1"
                 />
-              </button>
-
-              <button className="group inline-flex flex-1 items-center justify-center gap-2 border border-cream/30 bg-black/20 px-6 py-3.5 font-sans text-sm font-medium tracking-widest text-cream uppercase backdrop-blur-sm transition-all duration-300 ease-out hover:border-gold hover:bg-gold/5 hover:text-gold active:scale-[0.99]">
-                Read Sample
-                <ArrowRight
-                  strokeWidth={ICON_STROKE_WIDTH}
-                  className="h-4 w-4 transition-transform duration-300 ease-out group-hover:translate-x-1"
-                />
-              </button>
+              </a>
             </div>
 
             <div className="pt-2">
@@ -141,7 +132,9 @@ export default function LatestRelease() {
                 {retailers.map((retailer) => (
                   <a
                     key={retailer.label}
-                    href="#"
+                    href={books.latest.amazonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-sm border border-cream/15 bg-black/25 px-4 py-2 text-xs tracking-wide text-cream backdrop-blur-sm transition-all duration-300 hover:border-gold hover:bg-gold/5 hover:text-gold"
                   >
                     <retailer.Icon className="h-4 w-4 shrink-0" />

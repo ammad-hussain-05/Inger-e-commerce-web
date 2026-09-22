@@ -19,11 +19,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Inger & Alex',
-  description: 'Ultra-modern literary website for a steampunk and urban fantasy novelist. Discover immersive worlds, captivating characters, and groundbreaking storytelling.',
+  description: 'Ultra-modern literary website for an epic fantasy novelist. Discover immersive worlds, captivating characters, and groundbreaking storytelling.',
   icons: {
-    icon: '/inger-logo.png',
-    shortcut: '/inger-logo.png',
-    apple: '/inger-logo.png',
+    icon: '/inger-alex-moore-logo.png',
+    shortcut: '/inger-alex-moore-logo.png',
+    apple: '/inger-alex-moore-logo.png',
   },
 }
 

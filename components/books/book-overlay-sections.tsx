@@ -74,18 +74,20 @@ export default function BookOverlaySections({ progress }: BookOverlaySectionsPro
         range={[T.heroEnd + 0.06, T.book1EnterEnd, T.book1HoldEnd, T.handoff1End]}
         className="bottom-0 justify-end pb-20 md:pb-28"
       >
-        <p className="label mb-3 text-forest-green-light">{acclaimed.tagline}</p>
+        {acclaimed.tagline && <p className="label mb-3 text-forest-green-light">{acclaimed.tagline}</p>}
         <GenreBadge genre={acclaimed.genre} accent={acclaimed.accent} className="mb-4" />
         <h2 className="h3 text-balance">{acclaimed.title}</h2>
         <p className="label mt-2 text-cream/50">{acclaimed.series}</p>
         <p className="body mx-auto mt-5 max-w-2xl text-cream/75">{acclaimed.description}</p>
-        <button
-          type="button"
+        <a
+          href={acclaimed.amazonUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className={`group mt-7 inline-flex items-center gap-2 px-7 py-3.5 font-sans text-sm font-medium tracking-widest text-cream uppercase transition-all duration-300 ease-out hover:-translate-y-0.5 ${ACCENT_CTA[acclaimed.accent]}`}
         >
           {acclaimed.ctaLabel}
           <ArrowRight strokeWidth={1.5} className="h-4 w-4 transition-transform duration-300 ease-out group-hover:translate-x-1" />
-        </button>
+        </a>
       </ScrollCard>
 
       {/* Book Two — Rallying Cry */}
@@ -99,13 +101,15 @@ export default function BookOverlaySections({ progress }: BookOverlaySectionsPro
         <h2 className="h3 text-balance">{featured.title}</h2>
         <p className="label mt-2 text-cream/50">{featured.series}</p>
         <p className="body mx-auto mt-5 max-w-2xl text-cream/75">{featured.description}</p>
-        <button
-          type="button"
+        <a
+          href={featured.amazonUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className={`group mt-7 inline-flex items-center gap-2 px-7 py-3.5 font-sans text-sm font-medium tracking-widest text-cream uppercase transition-all duration-300 ease-out hover:-translate-y-0.5 ${ACCENT_CTA[featured.accent]}`}
         >
           {featured.ctaLabel}
           <ArrowRight strokeWidth={1.5} className="h-4 w-4 transition-transform duration-300 ease-out group-hover:translate-x-1" />
-        </button>
+        </a>
       </ScrollCard>
 
       {/* Book Three — Calling the Lost Ones Home */}
@@ -119,13 +123,15 @@ export default function BookOverlaySections({ progress }: BookOverlaySectionsPro
         <h2 className="h3 text-balance">{latest.title}</h2>
         <p className="label mt-2 text-cream/50">{latest.series}</p>
         <p className="body mx-auto mt-5 max-w-2xl text-cream/75">{latest.description}</p>
-        <button
-          type="button"
+        <a
+          href={latest.amazonUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className={`group mt-7 inline-flex items-center gap-2 px-7 py-3.5 font-sans text-sm font-medium tracking-widest text-cream uppercase transition-all duration-300 ease-out hover:-translate-y-0.5 ${ACCENT_CTA[latest.accent]}`}
         >
           {latest.ctaLabel}
           <ArrowRight strokeWidth={1.5} className="h-4 w-4 transition-transform duration-300 ease-out group-hover:translate-x-1" />
-        </button>
+        </a>
       </ScrollCard>
     </>
   )

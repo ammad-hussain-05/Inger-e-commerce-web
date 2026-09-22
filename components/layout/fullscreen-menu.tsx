@@ -108,7 +108,7 @@ export default function FullscreenMenu({ isOpen, onClose }: FullscreenMenuProps)
                 className="mb-10 space-y-1 md:mb-14"
               >
                 <p className="label text-gold/80">Inger &amp; Alex Moore</p>
-                <p className="label text-cream/40">Steampunk &amp; Urban Fantasy</p>
+                <p className="label text-cream/40">Epic Fantasy</p>
               </motion.div>
 
               <motion.nav

@@ -23,7 +23,7 @@ export default function LogoReveal({ progress }: LogoRevealProps) {
       className="pointer-events-none absolute inset-x-0 top-14 flex flex-col items-center px-6 text-center md:top-20"
     >
       <motion.div style={{ scale }} className="mb-6">
-        <Image src="/inger-logo.png" alt="Inger & Alex Moore" width={72} height={72} className="opacity-95" />
+        <Image src="/inger-alex-moore-logo.png" alt="Inger & Alex Moore" width={220} height={68} className="h-auto w-56 object-contain opacity-95" />
       </motion.div>
 
       <div className="mb-5 flex items-center justify-center gap-2">

@@ -5,7 +5,6 @@ export type BookAccent = 'forest-green' | 'royal-purple' | 'gold'
 export interface BookDetails {
   /** Genre tag shown as a badge near the title and in the carousel. */
   genre: string
-  /** Page count — placeholder until the client sends final numbers. */
   pages: string
   title: string
   series: string
@@ -14,6 +13,7 @@ export interface BookDetails {
   coverImage: string
   accent: BookAccent
   ctaLabel: string
+  amazonUrl: string
 }
 
 /** Single source of truth for book content — every section, carousel, and
@@ -21,19 +21,21 @@ export interface BookDetails {
 export const books: Record<BookId, BookDetails> = {
   acclaimed: {
     genre: 'Epic Fantasy',
-    pages: '387',
+    pages: '398',
     title: 'Two Elves and a Halfling Walk Into a Bar',
     series: 'Book One',
-    tagline: 'Award Winning',
+    tagline: '',
     description:
       "Even though the last Elven/Sidhe war ended a thousand years ago and decimated the lands of the world of Maldonere, the results of that hate-filled conflict still haunt the present. During that war the Sidhe released much evil upon the world, and the offspring of those vile creatures still ravage the lands to this day. The Elves, Ranger Emerald Star and the Wild Mage Thistle—each the last of their family line—along with their Halfling friend the Rogue Myst Roottapper, set out to capture their destiny. But unbeknownst to them, amongst whisper and rumor, the Sidhe have returned and are set on finishing what they started a thousand years before.",
     coverImage: '/Two Elves and a Halfling Walk into a Bar V2.jpg',
     accent: 'forest-green',
     ctaLabel: 'Buy Now',
+    amazonUrl:
+      'https://www.amazon.com/dp/B0D3KKC6Q6?lv=shuf&bestFormat=true&psc=1&_encoding=UTF8&social_share=cm_sw_r_ffobk_cp_ud_dp_JES96YCV1HF93HYKKZ91&channelId=704&ref_=cm_sw_r_ffobk_cp_ud_dp_JES96YCV1HF93HYKKZ91&plpRedirect=mhFallback',
   },
   featured: {
     genre: 'Epic Fantasy',
-    pages: 'XXX',
+    pages: '551',
     title: 'Rallying Cry',
     series: 'Book Two',
     tagline: 'Fan Favorite',
@@ -42,10 +44,11 @@ export const books: Record<BookId, BookDetails> = {
     coverImage: '/fan-favourite.png',
     accent: 'royal-purple',
     ctaLabel: 'Buy Now',
+    amazonUrl: 'https://a.co/d/07D99CqQ',
   },
   latest: {
     genre: 'Epic Fantasy',
-    pages: 'XXX',
+    pages: '820',
     title: 'Calling the Lost Ones Home',
     series: 'Book Three',
     tagline: 'Available Now',
@@ -53,6 +56,7 @@ export const books: Record<BookId, BookDetails> = {
       "Destroying the terrible creature that inhabited the southernmost lands of Mardalla wasn't the end of the problems for Thistle, Myst and Em, the kingdom's newest nobles. Now comes the task of building a new duchy from scraps of nothing into something strong and enduring. And somehow, some way, letting those who had been scattered across the world since the last war a thousand years before know that there was a safe haven again. There was now a new place for the Elves to live together, protected by the Wild and the Wilderness. It was time to call the lost ones home.",
     coverImage: '/latest-book.png',
     accent: 'gold',
-    ctaLabel: 'Pre-Order Now',
+    ctaLabel: 'Buy Now',
+    amazonUrl: 'https://a.co/d/06c6X37Q',
   },
 }

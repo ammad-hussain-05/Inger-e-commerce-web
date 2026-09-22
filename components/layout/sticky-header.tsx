@@ -25,12 +25,12 @@ export default function StickyHeader({ isScrolled }: StickyHeaderProps) {
         <nav className="relative h-20 md:h-24 max-w-[1800px] mx-auto px-6 md:px-10 flex items-center justify-center">
           <Link href="#" className="inline-flex items-center" aria-label="Inger & Alex Moore">
             <Image
-              src="/inger-logo-R2.png"
+              src="/inger-alex-moore-logo.png"
               alt="Inger & Alex Moore"
-              width={400}
-              height={300}
+              width={1854}
+              height={573}
               priority
-              className="h-22 w-auto object-contain transition-transform duration-300 hover:scale-105 sm:h-24 md:h-26 lg:h-30"
+              className="h-[55px] w-auto object-contain sm:h-[63px] md:h-[69px] lg:h-[79px]"
             />
           </Link>
 
