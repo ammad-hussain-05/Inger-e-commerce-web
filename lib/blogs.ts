@@ -109,8 +109,8 @@ export const blogPosts: BlogPost[] = [
     title: 'Elves, Halflings & Unlikely Heroes',
     excerpt:
       'A fantasy world can have stunning magic and sweeping history, but what truly pulls readers in is the characters who walk through it. In the Maldonere Chronicles by Inger and Alex Moore, the real heart of the story lies in how its heroes talk to each other, tease each other, and slowly grow into the family they never expected to find. Here is a closer look at the character dynamics that make this series so easy to fall in love with.',
-    image: '/blog-2.png',
-    imageAlt: 'A brooding dark-haired young man in ornate armor standing before candlelit fantasy spires at dusk',
+    image: '/blog-cover-book-1.png',
+    imageAlt: 'The cover of Two Elves and a Halfling Walk Into a Bar, Book One of the Maldonere Chronicles',
     date: 'June 19, 2026',
     readTime: '5 min read',
     body: [
@@ -262,8 +262,8 @@ export const blogPosts: BlogPost[] = [
     title: 'Elves, Halflings & Unlikely Heroes',
     excerpt:
       'A great fantasy world can only carry a story so far. What actually keeps readers turning pages is the people inside it, and The Maldonere Chronicles by Inger and Alex Moore is full of characters worth rooting for. The bond between this core group of unlikely heroes is built on banter, loyalty, and the kind of trust that only comes from surviving impossible odds together.',
-    image: '/blog-2.png',
-    imageAlt: 'A brooding dark-haired young man in ornate armor standing before candlelit fantasy spires at dusk',
+    image: '/blog-cover-book-2.png',
+    imageAlt: 'The cover of Rallying Cry, Book Two of the Maldonere Chronicles',
     date: 'August 14, 2026',
     readTime: '4 min read',
     body: [
@@ -342,8 +342,8 @@ export const blogPosts: BlogPost[] = [
     title: 'Exploring the World of Maldonere',
     excerpt:
       'Maldonere has always been a world built on layers, and Calling the Lost Ones Home peels back a few more of them. This installment in the series by Inger and Alex Moore takes readers beyond the battlefield and into the slower, and just as dangerous, work of building something new. It also widens the lens, showing that Maldonere is only one piece of a much bigger picture.',
-    image: '/blog-1.png',
-    imageAlt: 'A golden airship drifting past towering gothic spires over a lantern-lit fantasy city at dusk',
+    image: '/blog-cover-book-3.png',
+    imageAlt: 'The cover of Calling the Lost Ones Home, Book Three of the Maldonere Chronicles',
     date: 'September 4, 2026',
     readTime: '5 min read',
     body: [
@@ -413,8 +413,8 @@ export const blogPosts: BlogPost[] = [
     title: 'Elves, Halflings & Unlikely Heroes',
     excerpt:
       'Building a fantasy world is one thing. Building a family inside it is another, and that is exactly what Calling the Lost Ones Home by Inger and Alex Moore does so well. With the battles of the past behind them, the core group at the heart of The Maldonere Chronicles settles into a new kind of challenge, running a duchy together, and their relationships grow richer for it.',
-    image: '/blog-2.png',
-    imageAlt: 'A brooding dark-haired young man in ornate armor standing before candlelit fantasy spires at dusk',
+    image: '/blog-cover-book-3.png',
+    imageAlt: 'The cover of Calling the Lost Ones Home, Book Three of the Maldonere Chronicles',
     date: 'September 11, 2026',
     readTime: '5 min read',
     body: [

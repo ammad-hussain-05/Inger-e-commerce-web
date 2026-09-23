@@ -150,7 +150,7 @@ export default function Footer() {
           className="pointer-events-none w-full max-w-full text-center leading-none font-normal tracking-widest whitespace-nowrap uppercase select-none"
           style={{
             fontFamily: 'var(--font-serif)',
-            fontSize: 'clamp(3.25rem, 18vw, 200px)',
+            fontSize: 'clamp(1.75rem, 8vw, 120px)',
             backgroundImage: 'linear-gradient(180deg, rgba(250,248,246,0.9), rgba(201,169,97,0.55))',
             WebkitBackgroundClip: 'text',
             backgroundClip: 'text',
@@ -158,7 +158,7 @@ export default function Footer() {
             color: 'rgba(201,169,97,0.75)',
           }}
         >
-          Inger
+          Inger &amp; Alex
         </span>
       </div>
     </footer>

@@ -98,7 +98,7 @@ export default function About() {
 
             <div className="space-y-6">
               <p className="body text-cream/80">
-                Inger K. Moore (Johnson) was born in Hawaii, went to high school in South Carolina, and is back again living in San Diego, California with her husband Alex and their cats Vidar and Sifr. Inger&rsquo;s an avid reader of mysteries, science fiction and fantasy. She grew up reading Anne McCaffery, Alan Dean Foster, Andre Norton, and Frank Herbert, with a sprinkling of James Clavell, Dick Francis, Alistair MacLean, and Tom Clancy. She now also reads David Weber, J. D. Robb, Leann Sweeney, and Sofie Kelly/Sofie Ryan.
+                Inger K. Moore (Johnson) was born in Hawaii, went to high school in South Carolina, and is back again living in San Diego, California with her husband Alex and their cats Vidar and Sifr. Inger&rsquo;s an avid reader of mysteries, science fiction and fantasy. She grew up reading Anne McCaffrey, Alan Dean Foster, Andre Norton, and Frank Herbert, with a sprinkling of James Clavell, Dick Francis, Alistair MacLean, and Tom Clancy. She now also reads David Weber, J. D. Robb, Leann Sweeney, and Sofie Kelly/Sofie Ryan.
               </p>
 
               <p className="body text-cream/80">
@@ -114,11 +114,11 @@ export default function About() {
             <div className="grid grid-cols-2 gap-6 border-t border-b border-gold/20 py-6">
               <div>
                 <p className="label mb-2 text-xs text-gold/60">Published Works</p>
-                <p className="font-serif text-3xl text-cream">7</p>
+                <p className="font-serif text-3xl text-cream">3</p>
               </div>
               <div>
-                <p className="label mb-2 text-xs text-gold/60">Active Readers</p>
-                <p className="font-serif text-3xl text-cream">50K+</p>
+                <p className="label mb-2 text-xs text-gold/60">In Progress</p>
+                <p className="font-serif text-3xl text-cream">2</p>
               </div>
             </div>
 
