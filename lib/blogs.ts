@@ -38,8 +38,8 @@ export const blogPosts: BlogPost[] = [
     title: 'Exploring the World of Maldonere',
     excerpt:
       'Every great fantasy series starts with a world that feels alive, and Maldonere is exactly that kind of place. Created by authors Inger and Alex Moore, the Maldonere Chronicles invites readers into a sunlit realm of elves, dwarves, halflings, and ancient magic, where an old war still casts a shadow over everyday life. If you love fantasy novels that mix heartfelt friendship with deep worldbuilding, this is a series worth getting to know. Here is a closer look at the world of Maldonere and what makes it such a rich setting for storytelling.',
-    image: '/blog-cover-book-1.png',
-    imageAlt: 'The cover of Two Elves and a Halfling Walk Into a Bar, Book One of the Maldonere Chronicles',
+    image: '/blog-4.png',
+    imageAlt: 'A candlelit desk scene with an antique map of a fantasy city, a magnifying glass, and leather-bound books',
     date: 'June 12, 2026',
     readTime: '5 min read',
     body: [
@@ -173,8 +173,8 @@ export const blogPosts: BlogPost[] = [
     title: 'Exploring the World of Maldonere',
     excerpt:
       'Every great epic fantasy needs a world worth getting lost in, and Maldonere is exactly that kind of place. Built by authors Inger and Alex Moore for their novel Rallying Cry, Maldonere is a realm layered with ancient history, warring races, and a magic system that feels lived in rather than invented for convenience. If you love fantasy worlds that reward close attention, this is one to add to your reading list.',
-    image: '/blog-cover-book-2.png',
-    imageAlt: 'The cover of Rallying Cry, Book Two of the Maldonere Chronicles',
+    image: '/blog-3.png',
+    imageAlt: 'A lone figure standing before a glowing arcane circle above a candlelit fantasy city',
     date: 'August 21, 2026',
     readTime: '5 min read',
     body: [
