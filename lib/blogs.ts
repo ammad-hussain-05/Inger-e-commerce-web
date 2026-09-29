@@ -342,8 +342,8 @@ export const blogPosts: BlogPost[] = [
     title: 'Exploring the World of Maldonere',
     excerpt:
       'Maldonere has always been a world built on layers, and Calling the Lost Ones Home peels back a few more of them. This installment in the series by Inger and Alex Moore takes readers beyond the battlefield and into the slower, and just as dangerous, work of building something new. It also widens the lens, showing that Maldonere is only one piece of a much bigger picture.',
-    image: '/blog-cover-book-3.png',
-    imageAlt: 'The cover of Calling the Lost Ones Home, Book Three of the Maldonere Chronicles',
+    image: '/calling-last-ones-blog3.png',
+    imageAlt: 'A golden-hued fantasy castle above misty cliffs and waterfalls, with a dragon soaring across the sunset sky',
     date: 'September 4, 2026',
     readTime: '5 min read',
     body: [
