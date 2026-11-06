@@ -77,7 +77,7 @@ export default function LatestRelease() {
               <p className="label mb-3 text-gold/70">Available Now</p>
               <GenreBadge genre={books.latest.genre} accent="gold" className="mb-4" />
               <h2 className="h2 text-balance mb-6">
-                Calling The Lost Ones Homes
+                Calling The Lost Ones Home
               </h2>
               <div className="h-px w-full bg-cream/10" />
             </div>
